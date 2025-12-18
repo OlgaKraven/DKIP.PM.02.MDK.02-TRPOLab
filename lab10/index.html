@@ -1,0 +1,1479 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab9/">
+      
+      
+        <link rel="next" href="../requirements/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 10 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no10-idef3" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 10
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.0. Цель работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль сценарного моделирования бизнес-процессов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Нотация IDEF3: общее представление
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Основные элементы нотации IDEF3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Основные элементы нотации IDEF3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-uob-unit-of-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Единица поведения (UOB – Unit of Behavior)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-precedence-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Связь предшествования (Precedence Link)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133-junctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Узлы разветвления и синхронизации (Junctions)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-idef3-process-flow-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Диаграмма процесса IDEF3 (Process Flow Description)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Диаграмма процесса IDEF3 (Process Flow Description)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Пример диаграммы IDEF3 (основной сценарий)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-idef3-idef0-dfd-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Отличие IDEF3 от IDEF0, DFD и UML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Правила построения диаграмм IDEF3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Значение IDEF3 в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.0. Цель работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль сценарного моделирования бизнес-процессов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Нотация IDEF3: общее представление
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Основные элементы нотации IDEF3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Основные элементы нотации IDEF3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-uob-unit-of-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Единица поведения (UOB – Unit of Behavior)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-precedence-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Связь предшествования (Precedence Link)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133-junctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Узлы разветвления и синхронизации (Junctions)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-idef3-process-flow-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Диаграмма процесса IDEF3 (Process Flow Description)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Диаграмма процесса IDEF3 (Process Flow Description)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Пример диаграммы IDEF3 (основной сценарий)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-idef3-idef0-dfd-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Отличие IDEF3 от IDEF0, DFD и UML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Правила построения диаграмм IDEF3
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-idef3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Значение IDEF3 в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no10-idef3">Лабораторная работа №10 - Моделирование бизнес-процессов в нотации IDEF3</h1>
+<h2 id="10"><strong>1.0. Цель работы</strong></h2>
+<p>Целью лабораторной работы является изучение и практическое освоение <strong>моделирования бизнес-процессов в нотации IDEF3</strong>, а также формирование навыков:</p>
+<ul>
+<li>описания сценариев выполнения бизнес-процессов;</li>
+<li>моделирования последовательности действий и событий;</li>
+<li>анализа альтернативных и параллельных потоков выполнения;</li>
+<li>документирования логики процессов в виде сценарных моделей;</li>
+<li>использования IDEF3 совместно с IDEF0, DFD и UML.</li>
+</ul>
+<h3 id="11-"><strong>1.1. Общая роль сценарного моделирования бизнес-процессов</strong></h3>
+<p>Сценарное моделирование применяется для <strong>описания того, как именно выполняется бизнес-процесс во времени</strong>, с учётом последовательности действий, вариантов развития событий и условий переходов.</p>
+<p>В отличие от функционального анализа (IDEF0) и анализа потоков данных (DFD), сценарные модели позволяют:</p>
+<ul>
+<li>зафиксировать <strong>реальный порядок выполнения работ</strong>;</li>
+<li>описать <strong>варианты поведения процесса</strong>;</li>
+<li>выявить точки принятия решений;</li>
+<li>формализовать бизнес-логику для последующей автоматизации.</li>
+</ul>
+<p>Для этих целей используется нотация <strong>IDEF3</strong>.</p>
+<h3 id="12-idef3"><strong>1.2. Нотация IDEF3: общее представление</strong></h3>
+<p><strong>IDEF3 (Integrated DEFinition for Process Description Capture)</strong> — это нотация, предназначенная для <strong>описания сценариев выполнения процессов и переходов между действиями</strong>.</p>
+<p>IDEF3 отвечает на вопрос:</p>
+<blockquote>
+<p><strong>Как выполняется процесс шаг за шагом?</strong></p>
+</blockquote>
+<p>IDEF3 используется для:</p>
+<ul>
+<li>фиксации бизнес-процессов «как есть» (AS-IS);</li>
+<li>проектирования процессов «как должно быть» (TO-BE);</li>
+<li>уточнения логики, скрытой за функциональными моделями;</li>
+<li>подготовки требований к автоматизации.</li>
+</ul>
+<h3 id="13-idef3"><strong>1.3. Основные элементы нотации IDEF3</strong></h3>
+<p>IDEF3 использует ограниченный, но строго определённый набор элементов.</p>
+<h4 id="131-uob-unit-of-behavior"><strong>1.3.1. Единица поведения (UOB – Unit of Behavior)</strong></h4>
+<p><strong>UOB</strong> — это элементарное действие или шаг процесса.</p>
+<p>Характеристики UOB:</p>
+<ul>
+<li>изображается в виде прямоугольника;</li>
+<li>формулируется глагольной фразой
+  (например: «Принять заявку», «Проверить данные», «Сформировать отчёт»);</li>
+<li>отражает <strong>факт выполнения действия</strong>, а не его внутреннюю реализацию.</li>
+</ul>
+<h4 id="132-precedence-link"><strong>1.3.2. Связь предшествования (Precedence Link)</strong></h4>
+<p>Связь предшествования показывает, <strong>в каком порядке выполняются действия</strong>.</p>
+<p>Особенности:</p>
+<ul>
+<li>изображается стрелкой;</li>
+<li>определяет последовательность выполнения UOB;</li>
+<li>может иметь условия или пояснения.</li>
+</ul>
+<h4 id="133-junctions"><strong>1.3.3. Узлы разветвления и синхронизации (Junctions)</strong></h4>
+<p>Узлы используются для описания логики управления потоком выполнения.</p>
+<p>Основные типы:</p>
+<ul>
+<li><strong>AND</strong> — параллельное выполнение;</li>
+<li><strong>OR</strong> — альтернативное выполнение (одна или несколько ветвей);</li>
+<li><strong>XOR</strong> — выбор только одной ветви.</li>
+</ul>
+<p>Узлы применяются как для <strong>разделения</strong>, так и для <strong>объединения</strong> потоков.</p>
+<h3 id="14-idef3-process-flow-description"><strong>1.4. Диаграмма процесса IDEF3 (Process Flow Description)</strong></h3>
+<p>Диаграмма процесса IDEF3 отображает <strong>последовательность выполнения действий</strong> в рамках конкретного сценария.</p>
+<p>Она позволяет:</p>
+<ul>
+<li>описать основной сценарий;</li>
+<li>показать альтернативные ветви;</li>
+<li>отразить параллельные действия;</li>
+<li>зафиксировать точки принятия решений.</li>
+</ul>
+<h4 id="141-idef3"><strong>1.4.1. Пример диаграммы IDEF3 (основной сценарий)</strong></h4>
+<p>Рассмотрим процесс <strong>обработки заявки</strong>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/101.png" data-desc-position="bottom"><img alt="диаграммы" src="../assets/images/101.png"></a></p>
+<figcaption>
+<p>Рисунок 1 – Диаграмма IDEF3: сценарий обработки заявки</p>
+</figcaption>
+</figure>
+<h3 id="16-idef3-idef0-dfd-uml"><strong>1.6. Отличие IDEF3 от IDEF0, DFD и UML</strong></h3>
+<p>IDEF3 занимает особое место среди нотаций моделирования:</p>
+<ul>
+<li><strong>IDEF0</strong> — отвечает на вопрос <em>«что делает система?»</em>;</li>
+<li><strong>DFD</strong> — отвечает на вопрос <em>«какие данные и как обрабатываются?»</em>;</li>
+<li><strong>IDEF3</strong> — отвечает на вопрос <em>«как выполняется процесс?»</em>;</li>
+<li><strong>UML</strong> — описывает поведение, структуру и взаимодействие объектов.</li>
+</ul>
+<p>IDEF3 часто используется <strong>в связке</strong> с IDEF0 и DFD:</p>
+<ul>
+<li>IDEF0 задаёт функции,</li>
+<li>DFD — данные,</li>
+<li>IDEF3 — сценарии выполнения.</li>
+</ul>
+<h3 id="17-idef3"><strong>1.7. Правила построения диаграмм IDEF3</strong></h3>
+<p>При построении диаграмм IDEF3 необходимо соблюдать следующие правила:</p>
+<ul>
+<li>каждая UOB должна быть логически завершённым действием;</li>
+<li>последовательность должна быть однозначно читаемой;</li>
+<li>узлы разветвления должны иметь чёткую семантику (AND / OR / XOR);</li>
+<li>диаграмма должна описывать <strong>один сценарий или процесс</strong>;</li>
+<li>названия действий должны быть краткими и однозначными.</li>
+</ul>
+<h3 id="18-idef3"><strong>1.8. Значение IDEF3 в проектировании информационных систем</strong></h3>
+<p>Использование IDEF3 позволяет:</p>
+<ul>
+<li>формализовать реальные сценарии работы;</li>
+<li>выявить скрытые ветвления и зависимости;</li>
+<li>подготовить требования к автоматизации процессов;</li>
+<li>повысить точность проектных решений;</li>
+<li>улучшить взаимодействие между аналитиками и разработчиками.</li>
+</ul>
+<p>Нотация IDEF3 является важным инструментом анализа и проектирования бизнес-процессов и эффективно дополняет другие модели предметной области.</p>
+<hr>
+<h2 id="2"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется <strong>информационная система по предметной области, закреплённой за студентом на семестр</strong>.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в <strong>ЛМС</strong>.</p>
+<p>Предметная область должна быть согласована с ранее выполненными лабораторными работами, в том числе:</p>
+<ul>
+<li>анализом предметной области;</li>
+<li>моделированием бизнес-процессов в нотации IDEF0;</li>
+<li>моделированием потоков данных в нотации DFD;</li>
+<li>UML-диаграммами (варианты использования, деятельность, состояния).</li>
+</ul>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<p>Необходимо выполнить <strong>сценарное моделирование бизнес-процессов информационной системы</strong> с использованием нотации <strong>IDEF3</strong>.</p>
+<p>В рамках задания требуется:</p>
+<ol>
+<li>Выбрать <strong>один ключевой бизнес-процесс</strong> предметной области
+   (например: обработка заявки, оформление заказа, регистрация пользователя, расчёт показателей).</li>
+<li>Определить <strong>основной сценарий выполнения процесса</strong>.</li>
+<li>
+<p>Построить <strong>IDEF3-диаграмму процесса (Process Flow Description)</strong>, отразив:</p>
+<ul>
+<li>последовательность действий (UOB);</li>
+<li>логические переходы между действиями;</li>
+<li>альтернативные ветви выполнения;</li>
+<li>параллельные действия (при наличии).</li>
+</ul>
+</li>
+<li>
+<p>Использовать <strong>узлы разветвления (AND / OR / XOR)</strong> для описания логики управления потоком.</p>
+</li>
+<li>
+<p>Обеспечить логическую согласованность IDEF3-диаграммы с ранее построенными моделями:</p>
+<ul>
+<li>функциями IDEF0;</li>
+<li>потоками данных DFD;</li>
+<li>процессами UML Activity (при наличии).</li>
+</ul>
+</li>
+</ol>
+<p>Диаграмма должна описывать <strong>реальный или проектируемый сценарий выполнения процесса</strong> и быть однозначно интерпретируемой.</p>
+<h3 id="22"><strong>2.2. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть:</p>
+<ul>
+<li>выполнены в нотации <strong>IDEF3</strong>;</li>
+<li>сохранены в виде изображений;</li>
+<li>вставлены в отчёт с подписями.</li>
+</ul>
+<h3 id="23"><strong>2.3. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h2 id="3"><strong>3. Контрольные вопросы</strong></h2>
+<ol>
+<li>Для чего используется моделирование бизнес-процессов в нотации IDEF3?</li>
+<li>Чем IDEF3 отличается от IDEF0?</li>
+<li>Что такое UOB (Unit of Behavior)?</li>
+<li>Какую роль играют связи предшествования в IDEF3?</li>
+<li>Для чего используются узлы AND, OR и XOR?</li>
+<li>В каких случаях в процессе возникает параллельное выполнение действий?</li>
+<li>Чем сценарное моделирование отличается от функционального?</li>
+<li>Как IDEF3 связан с DFD и UML Activity Diagram?</li>
+<li>Какие типичные ошибки допускаются при построении IDEF3-диаграмм?</li>
+<li>Почему IDEF3 удобно использовать при проектировании автоматизации процессов?</li>
+</ol>
+<hr>
+<h2 id="4-"><strong>4. Чек-лист для самопроверки</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Баллы</th>
+<th>Критерии выполнения</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>8</strong></td>
+<td>Построена IDEF3-диаграмма; корректно выделены действия (UOB); логика последовательности, альтернатив и параллельных ветвей отражена корректно; диаграмма согласована с IDEF0 и DFD; оформление полностью соответствует требованиям.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5-7</strong></td>
+<td>Диаграмма представлена, но имеются незначительные логические или методические неточности (частично не раскрыты условия переходов).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3-4</strong></td>
+<td>Диаграмма построена формально; сценарий описан поверхностно; допущены ошибки в использовании узлов AND/OR/XOR.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>1–2</strong></td>
+<td>Диаграмма содержит существенные логические ошибки или не отражает реальный сценарий процесса.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5"><strong>5. Ссылка на скачивание шаблона отчета</strong></h2>
+<p>👉 <a href="../assets/tempales/LR10.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

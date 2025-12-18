@@ -1,0 +1,4148 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab1/">
+      
+      
+        <link rel="next" href="../lab3/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 2 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no2-34" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Назначение технического задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Структура и содержание ТЗ по ГОСТ 34
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Структура и содержание ТЗ по ГОСТ 34">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Общие сведения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Цели и назначение автоматизированной системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Характеристика объектов автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Требования к автоматизированной системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Требования к автоматизированной системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Требования к структуре АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Требования к функциям (задачам)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Требования к видам обеспечения АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.3. Требования к видам обеспечения АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Информационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Лингвистическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Техническое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Метрологическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Организационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Методическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Общие технические требования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Общие технические требования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Требования к персоналу
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2. Требования к надежности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3. Требования по безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4. Эргономические и эстетические требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5. Требования к эксплуатации, ремонту и обслуживанию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Состав и содержание работ по созданию АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Порядок разработки АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Порядок контроля и приёмки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Требования к подготовке объекта автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Требования к документированию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Порядок выполнения работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Общие сведения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Общие сведения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Полное наименование АС и ее условное обозначение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Шифр темы (при наличии)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Наименование организации Заказчика АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Наименование организации-разработчика (при наличии сведений о ней)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Информация о документации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. Информация о документации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1. Перечень документов, на основании которых создается АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2. Плановые сроки начала и окончания работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3. Общие сведения об источниках и порядке финансирования работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.4. Нормативно-правовые и нормативно-технические документы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.5. Техническое задание на создание ранее разрабатывавшейся АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Цели и назначение создания автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Цели и назначение создания автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Цели создания АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Назначение АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Характеристика объектов автоматизации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Характеристика объектов автоматизации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Основные сведения об объекте автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Сведения об условиях эксплуатации и окружающей среде
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Требования к автоматизированной системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Требования к автоматизированной системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Требования к структуре АС в целом
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1. Требования к структуре АС в целом">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1. Перечень подсистем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.2. Требования к информационному взаимодействию компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.3. Требования к взаимосвязям со смежными АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.4. Требования к интероперабельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.5. Требования к совместимости и обмену информацией
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Требования к функциям (задачам), выполняемым АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2. Требования к функциям (задачам), выполняемым АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1. Временной регламент реализации функций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2. Требование реализации каждой функции
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.3. Требования к форме представления выходной информации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#424" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.4. Требования одновременности и достоверности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#425" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.5. Перечень и критерии отказов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#426" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.6. Требования по диагностированию АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#427" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.7. Перспективы развития, модернизации АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Требования к видам обеспечения АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3. Требования к видам обеспечения АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1. Информационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2. Лингвистическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3. Программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#434" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.4. Техническое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#435" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.5. Метрологическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#436" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.6. Организационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#437" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.7. Методическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Общие технические требования к АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4. Общие технические требования к АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.1. Требования к персоналу
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2. Требования к показателям назначения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3. Требования к надежности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#444" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.4. Требования по безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#445" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.5. Требования к эргономике и технической эстетике
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#446" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.6. Требования к транспортабельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#447" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.7. Требования к эксплуатации, обслуживанию и хранению
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Состав и содержание работ по созданию АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Состав и содержание работ по созданию АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Перечень этапов работ и сроки
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Порядок разработки автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Порядок разработки автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1. Порядок организации разработки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2. Перечень исходных данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3. Перечень документов по этапам
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4. Порядок экспертизы документации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5. Перечень макетов (если нужны)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6. Порядок разработки и утверждения плана совместных работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Порядок контроля и приёмки автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Порядок контроля и приёмки автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1. Виды, состав и методы испытаний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2. Общие требования к приемке
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3. Статус приемочной комиссии
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Требования к работам по подготовке объекта автоматизации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Требования к работам по подготовке объекта автоматизации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1. Создание условий функционирования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2. Организационно-штатные мероприятия
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3. Порядок обучения персонала
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Требования к документированию
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Требования к документированию">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1. Перечень разрабатываемых документов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2. Вид представления и количество
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3. Требования по ЕСКД и ЕСПД
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Источники разработки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Назначение технического задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-34" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Структура и содержание ТЗ по ГОСТ 34
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Структура и содержание ТЗ по ГОСТ 34">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Общие сведения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Цели и назначение автоматизированной системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Характеристика объектов автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Требования к автоматизированной системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Требования к автоматизированной системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Требования к структуре АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Требования к функциям (задачам)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Требования к видам обеспечения АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.3. Требования к видам обеспечения АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Информационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Лингвистическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Техническое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Метрологическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Организационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Методическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Общие технические требования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Общие технические требования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Требования к персоналу
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2. Требования к надежности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3. Требования по безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4. Эргономические и эстетические требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5. Требования к эксплуатации, ремонту и обслуживанию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Состав и содержание работ по созданию АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Порядок разработки АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Порядок контроля и приёмки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Требования к подготовке объекта автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Требования к документированию
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Порядок выполнения работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Общие сведения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Общие сведения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Полное наименование АС и ее условное обозначение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Шифр темы (при наличии)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Наименование организации Заказчика АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Наименование организации-разработчика (при наличии сведений о ней)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Информация о документации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. Информация о документации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1. Перечень документов, на основании которых создается АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2. Плановые сроки начала и окончания работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#153" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.3. Общие сведения об источниках и порядке финансирования работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#154-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.4. Нормативно-правовые и нормативно-технические документы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#155" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.5. Техническое задание на создание ранее разрабатывавшейся АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Цели и назначение создания автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Цели и назначение создания автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Цели создания АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Назначение АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Характеристика объектов автоматизации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Характеристика объектов автоматизации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Основные сведения об объекте автоматизации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Сведения об условиях эксплуатации и окружающей среде
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Требования к автоматизированной системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Требования к автоматизированной системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Требования к структуре АС в целом
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1. Требования к структуре АС в целом">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.1. Перечень подсистем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.2. Требования к информационному взаимодействию компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.3. Требования к взаимосвязям со смежными АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#414" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.4. Требования к интероперабельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#415" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1.5. Требования к совместимости и обмену информацией
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Требования к функциям (задачам), выполняемым АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2. Требования к функциям (задачам), выполняемым АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.1. Временной регламент реализации функций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.2. Требование реализации каждой функции
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.3. Требования к форме представления выходной информации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#424" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.4. Требования одновременности и достоверности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#425" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.5. Перечень и критерии отказов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#426" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.6. Требования по диагностированию АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#427" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2.7. Перспективы развития, модернизации АС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Требования к видам обеспечения АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3. Требования к видам обеспечения АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1. Информационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2. Лингвистическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3. Программное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#434" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.4. Техническое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#435" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.5. Метрологическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#436" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.6. Организационное обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#437" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.7. Методическое обеспечение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Общие технические требования к АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4. Общие технические требования к АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.1. Требования к персоналу
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.2. Требования к показателям назначения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#443" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.3. Требования к надежности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#444" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.4. Требования по безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#445" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.5. Требования к эргономике и технической эстетике
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#446" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.6. Требования к транспортабельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#447" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4.7. Требования к эксплуатации, обслуживанию и хранению
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Состав и содержание работ по созданию АС
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Состав и содержание работ по созданию АС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1. Перечень этапов работ и сроки
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Порядок разработки автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Порядок разработки автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1. Порядок организации разработки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2. Перечень исходных данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3. Перечень документов по этапам
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4. Порядок экспертизы документации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5. Перечень макетов (если нужны)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6. Порядок разработки и утверждения плана совместных работ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Порядок контроля и приёмки автоматизированной системы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Порядок контроля и приёмки автоматизированной системы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1. Виды, состав и методы испытаний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2. Общие требования к приемке
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3. Статус приемочной комиссии
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Требования к работам по подготовке объекта автоматизации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Требования к работам по подготовке объекта автоматизации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1. Создание условий функционирования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2. Организационно-штатные мероприятия
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3. Порядок обучения персонала
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Требования к документированию
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Требования к документированию">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1. Перечень разрабатываемых документов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2. Вид представления и количество
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3. Требования по ЕСКД и ЕСПД
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Источники разработки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no2-34"><strong>Лабораторная работа №2 - Создание технического задания на разработку программного обеспечения согласно ГОСТ 34</strong></h1>
+<h2 id="1"><strong>1. Теория</strong></h2>
+<h3 id="10"><strong>1.0. Цель работы</strong></h3>
+<p>Целью лабораторной работы является освоение требований и структуры технического задания на разработку программного обеспечения в соответствии с ГОСТ 34, включая формирование разделов документа, определение назначения, функций, требований и ограничений разрабатываемой информационной системы, а также закрепление навыков формализации требований заказчика в нормативно установленной форме.</p>
+<h3 id="11"><strong>1.1. Назначение технического задания</strong></h3>
+<p><strong>Техническое задание (ТЗ)</strong> — это основной организационно-распорядительный документ, определяющий требования к создаваемой автоматизированной системе (АС) на начальной стадии её жизненного цикла. Согласно ГОСТ 34.602–89, ТЗ является обязательным элементом документации и служит основанием для начала работ по проектированию, разработке, внедрению и эксплуатации АС.</p>
+<p>ТЗ фиксирует:
+• что должно быть создано;
+• какие функции система должна выполнять;
+• в каких условиях будет эксплуатироваться;
+• какие ограничения и требования необходимо учесть;
+• как система будет приниматься заказчиком.</p>
+<p>Наличие грамотно составленного ТЗ обеспечивает единое понимание проекта заказчиком и разработчиком, снижает риски ошибок и упрощает последующие этапы проектирования.</p>
+<h3 id="12-34"><strong>1.2. Структура и содержание ТЗ по ГОСТ 34</strong></h3>
+<p>ГОСТ 34 устанавливает строгую структуру технического задания. Основные разделы описывают: общие сведения о проекте, цели и задачи создания АС, характеристику объектов автоматизации, требования к системе, порядок разработки, приёмки и документирования.</p>
+<h4 id="121"><strong>1.2.1. Общие сведения</strong></h4>
+<p>Этот раздел описывает <strong>административно-организационную информацию</strong>, связанную с проектом:</p>
+<ul>
+<li>наименование АС и её условное обозначение;</li>
+<li>сведения о заказчике и разработчике;</li>
+<li>документы-основания для разработки;</li>
+<li>сроки выполнения работ;</li>
+<li>источники финансирования;</li>
+<li>нормативно-правовые документы, влияющие на проект.</li>
+</ul>
+<p>Данный раздел служит юридическим и организационным основанием для разработки системы.</p>
+<h4 id="122"><strong>1.2.2. Цели и назначение автоматизированной системы</strong></h4>
+<p>В этом разделе формулируются <strong>цели создания АС</strong>, которые могут быть:
+• техническими (повышение скорости обработки данных, улучшение качества информации);
+• технологическими (автоматизация ручных операций, снижение ошибок персонала);
+• производственно-экономическими (уменьшение затрат, повышение эффективности процессов).</p>
+<p>Также определяется <strong>назначение</strong> АС — какие процессы и виды деятельности будут автоматизированы. Это позволяет связать будущую систему с реальными задачами организации и определить её роль в структуре предприятия.</p>
+<h4 id="123"><strong>1.2.3. Характеристика объектов автоматизации</strong></h4>
+<p>Объект автоматизации — это процесс, подразделение или организация, деятельность которых будет поддерживаться новой системой.</p>
+<p>Раздел включает:
+• описание текущего состояния объекта;
+• анализ бизнес-процессов, связанных с будущей АС;
+• проблемы и ограничения существующих решений;
+• условия эксплуатации (окружение, режим работы, техническая инфраструктура).</p>
+<p>Корректное описание объекта автоматизации — основа правильной формулировки требований к системе.</p>
+<h3 id="13"><strong>1.3. Требования к автоматизированной системе</strong></h3>
+<p>Это ключевой раздел ТЗ. Здесь описывается <strong>что система должна делать</strong>, <strong>как она должна работать</strong>, <strong>какие требования предъявляются к программному, техническому и информационному обеспечению</strong>.</p>
+<h4 id="131"><strong>1.3.1. Требования к структуре АС</strong></h4>
+<p>Включает:
+• перечень подсистем и модулей;
+• их назначение;
+• взаимодействие между ними;
+• интеграции с внешними системами;
+• требования к совместимости и интероперабельности.</p>
+<p>Структурирование системы на подсистемы облегчает проектирование и позволяет выделить независимые функциональные блоки.</p>
+<h4 id="132"><strong>1.3.2. Требования к функциям (задачам)</strong></h4>
+<p>Здесь описываются все функции, которые должна выполнять АС:</p>
+<p>• обработка данных;
+• регистрация, поиск, сортировка, фильтрация информации;
+• формирование отчетов;
+• взаимодействие с пользователями и внешними сервисами.</p>
+<p>В дополнение указываются требования:</p>
+<p>• временные (скорость выполнения операций);
+• требования к форме представления данных;
+• требования к надежности, отказоустойчивости и достоверности результатов;
+• правила одновременной работы нескольких пользователей.</p>
+<p>Этот раздел формирует основу для функционального проектирования и будущего тестирования системы.</p>
+<h4 id="133"><strong>1.3.3. Требования к видам обеспечения АС</strong></h4>
+<p>ГОСТ выделяет несколько видов обеспечения:</p>
+<h5 id="1_1">1. <strong>Информационное обеспечение</strong></h5>
+<p>Включает структуру данных, способы их хранения, использование классификаторов, форматы обмена, правила резервного копирования.</p>
+<h5 id="2">2. <strong>Лингвистическое обеспечение</strong></h5>
+<p>Определяет языковые средства АС: язык интерфейса, словари терминов, способы взаимодействия пользователя с системой.</p>
+<h5 id="3">3. <strong>Программное обеспечение</strong></h5>
+<p>Описывает требования к программным продуктам:
+• операционная система,
+• серверы приложений,
+• СУБД (если есть),
+• сторонние библиотеки,
+• требования к разрабатываемому ПО.</p>
+<h5 id="4">4. <strong>Техническое обеспечение</strong></h5>
+<p>Включает характеристики оборудования, серверов, рабочих станций и прочей техники, используемой в АС.</p>
+<h5 id="5">5. <strong>Метрологическое обеспечение</strong></h5>
+<p>Учитывается в системах, связанных с измерениями. Для информационных систем обычно не применяется.</p>
+<h5 id="6">6. <strong>Организационное обеспечение</strong></h5>
+<p>Определяет роль персонала, регламенты работы, функции администраторов и пользователей.</p>
+<h5 id="7">7. <strong>Методическое обеспечение</strong></h5>
+<p>Содержит перечень методик, стандартов, инструкций, используемых при разработке и внедрении системы.</p>
+<p>Каждый ресурс обеспечивает определённый аспект функционирования АС.</p>
+<h3 id="14"><strong>1.4. Общие технические требования</strong></h3>
+<p>Этот раздел определяет качественные характеристики будущей системы:</p>
+<h4 id="141"><strong>1.4.1. Требования к персоналу</strong></h4>
+<p>– квалификация пользователей;
+– необходимость обучения;
+– требования к численности персонала.</p>
+<h4 id="142"><strong>1.4.2. Требования к надежности</strong></h4>
+<p>Включают показатели:
+• коэффициент готовности;
+• время безотказной работы;
+• время восстановления;
+• перечень отказов, для которых задаются требования.</p>
+<h4 id="143"><strong>1.4.3. Требования по безопасности</strong></h4>
+<p>Учитывают:
+• защита информации;
+• защита персонала;
+• электробезопасность;
+• требования охраны труда и экологии.</p>
+<h4 id="144"><strong>1.4.4. Эргономические и эстетические требования</strong></h4>
+<p>Определяют:
+• удобство интерфейса;
+• читаемость информации;
+• требования к рабочему месту пользователя.</p>
+<h4 id="145"><strong>1.4.5. Требования к эксплуатации, ремонту и обслуживанию</strong></h4>
+<p>Определяются:
+• режим эксплуатации;
+• периодичность технического обслуживания;
+• требования к помещениям, оборудованию, условиям хранения.</p>
+<h3 id="15"><strong>1.5. Состав и содержание работ по созданию АС</strong></h3>
+<p>В соответствии с ГОСТ указываются этапы проекта:</p>
+<ol>
+<li>Формирование ТЗ</li>
+<li>Эскизный проект</li>
+<li>Технический проект</li>
+<li>Рабочая документация</li>
+<li>Внедрение</li>
+<li>Сопровождение</li>
+</ol>
+<p>Для каждого этапа задаются сроки и результаты (перечень документов).</p>
+<h3 id="16"><strong>1.6. Порядок разработки АС</strong></h3>
+<p>Содержит описание:</p>
+<p>• стратегии разработки (каскадная, итерационная, смешанная);
+• распределения ответственности между заказчиком и разработчиком;
+• списка исходных данных;
+• правил согласования документов;
+• процесса экспертизы ТЗ и проектной документации;
+• требований к макетам и прототипам.</p>
+<p>Этот раздел определяет организацию взаимодействия сторон.</p>
+<h3 id="17"><strong>1.7. Порядок контроля и приёмки</strong></h3>
+<p>Описывает:
+• методы испытаний системы (функциональные, интеграционные, приемочные);
+• порядок оформления протоколов и актов;
+• состав приемочной комиссии;
+• критерии успешной сдачи проекта.</p>
+<p>Результатом является <strong>акт приемки в эксплуатацию</strong>.</p>
+<h3 id="18"><strong>1.8. Требования к подготовке объекта автоматизации</strong></h3>
+<p>Включает подготовку заказчика к внедрению системы:</p>
+<p>• обеспечение необходимых технических условий;
+• назначение ответственных сотрудников;
+• обучение пользователей;
+• выполнение организационных мероприятий.</p>
+<h3 id="19"><strong>1.9. Требования к документированию</strong></h3>
+<p>Система должна быть обеспечена комплектом эксплуатационной и технической документации:</p>
+<p>• руководство пользователя;
+• руководство администратора;
+• техническое описание;
+• инструкции по резервному копированию и восстановлению;
+• программная документация.</p>
+<p>Документы оформляются в соответствии с ЕСПД и ЕСКД.</p>
+<hr>
+<h2 id="2_1"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется информационная система по предметной области, закреплённой за студентом на семестр.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в ЛМС.
+Предметная область должна быть согласована с ранее выполненными лабораторными работами. </p>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<ol>
+<li>Проанализировать предметную область разрабатываемой информационной системы.</li>
+<li>Составить техническое задание по ГОСТу 34.</li>
+</ol>
+<h3 id="22"><strong>2.2. Порядок выполнения работы</strong></h3>
+<h3 id="1_2">1. Общие сведения</h3>
+<h4 id="11_1">1.1. Полное наименование АС и ее условное обозначение</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Придумать <strong>полное официальное название системы</strong>.</p>
+</li>
+<li>
+<p>Например: «Автоматизированная система учета заявок в колл-центре».</p>
+</li>
+<li>
+<p>Придумать <strong>условное обозначение / краткое название</strong> (аббревиатуру).</p>
+</li>
+<li>
+<p>Например: «АС УЗКЦ» или «CallCenterCRM».</p>
+</li>
+</ul>
+<p>Заполнить поля:</p>
+<ul>
+<li>Наименование: …</li>
+<li>Условное обозначение: …</li>
+</ul>
+<h4 id="12">1.2. Шифр темы (при наличии)</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Если тема/проект имеет <strong>шифр</strong> по плану НИР, учебному плану, договору — указать его.</li>
+<li>Если шифра нет (учебный проект) — можно написать: «Не присвоен» или оставить прочерк по методичке преподавателя.</li>
+</ul>
+<h4 id="13_1">1.3. Наименование организации Заказчика АС</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Указать <strong>название предприятия</strong>, для которого делаете систему (реальное или учебное).</li>
+<li>
+<p>Заполнить:</p>
+</li>
+<li>
+<p>«Наименование» — полное название компании-заказчика.</p>
+</li>
+<li>«Вид заказчика» — кто это: госорган, коммерческая компания, учебное заведение и т.п.</li>
+<li>«Вид компании заказчика» — отрасль/тип бизнеса: банк, колл-центр, логистическая компания, университет и т.д.</li>
+</ul>
+<h4 id="14-">1.4. Наименование организации-разработчика (при наличии сведений о ней)</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Указать, <strong>кто разрабатывает систему</strong>.</p>
+</li>
+<li>
+<p>Для учебного проекта: «Студенческая группа … колледжа/университета …».</p>
+</li>
+<li>Для реального: название ИТ-компании или ИТ-отдела.</li>
+</ul>
+<h4 id="15_1">1.5. Информация о документации</h4>
+<h5 id="151">1.5.1. Перечень документов, на основании которых создается АС</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>В таблице перечислить <strong>все документы-основания</strong>, например:</p>
+</li>
+<li>
+<p>договор на разработку,</p>
+</li>
+<li>приказ о разработке,</li>
+<li>техзадания заказчика,</li>
+<li>регламенты, стандарты компании.</li>
+</ul>
+<p>Таблица 1:</p>
+<table>
+<thead>
+<tr>
+<th>№</th>
+<th>Название документа</th>
+<th>Кем утвержден</th>
+<th>Когда (дата)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Приказ о разработке АС …</td>
+<td>Директор организации …</td>
+<td>01.09.2025</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Договор №… на разработку АС</td>
+<td>Генеральный директор …</td>
+<td>05.09.2025</td>
+</tr>
+</tbody>
+</table>
+<p>Для учебного проекта можно указать:</p>
+<ul>
+<li>«Учебное задание по дисциплине …» — утверждено преподавателем, дата.</li>
+</ul>
+<h5 id="152">1.5.2. Плановые сроки начала и окончания работ</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Записать <strong>плановую дату старта</strong> и <strong>плановую дату завершения разработки</strong>.</li>
+<li>Для учебного проекта можно взять даты семестра или план-графика лабораторных/курсового.</li>
+</ul>
+<h5 id="153">1.5.3. Общие сведения об источниках и порядке финансирования работ</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Кратко описать, <strong>кто финансирует проект</strong>:</p>
+</li>
+<li>
+<p>собственные средства заказчика,</p>
+</li>
+<li>бюджетные средства,</li>
+<li>грант,</li>
+<li>в учебном проекте — можно написать: «Проект выполняется в рамках учебного процесса, без отдельного финансирования».</li>
+</ul>
+<h5 id="154-">1.5.4. Нормативно-правовые и нормативно-технические документы</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Перечислить <strong>законы, ГОСТы, стандарты, регламенты</strong>, которые влияют на создание системы:</p>
+</li>
+<li>
+<p>ГОСТ 34…, ГОСТ 19…,</p>
+</li>
+<li>ФЗ о персональных данных,</li>
+<li>внутренние стандарты компании.</li>
+</ul>
+<h5 id="155">1.5.5. Техническое задание на создание ранее разрабатывавшейся АС</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Если текущая система — <strong>модернизация/замена</strong> старой АС, указать данные ТЗ на прежнюю систему или ссылку на него.</li>
+<li>Если проект «с нуля» — можно указать: «Не применимо, ранее разрабатывавшейся АС нет».</li>
+</ul>
+<h3 id="2_2">2. Цели и назначение создания автоматизированной системы</h3>
+<h4 id="21_1">2.1. Цели создания АС</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Сформулировать <strong>зачем создается система</strong> и какие показатели должны улучшиться.
+  Заполнить:</p>
+</li>
+<li>
+<p>Наименование АС — продублировать из п. 1.1.</p>
+</li>
+<li>
+<p>Технические показатели — что улучшится технически: производительность, скорость обработки заявок, доступность 24/7 и т.п.</p>
+</li>
+<li>
+<p>Технологические показатели — улучшение процессов: автоматизация ручных операций, уменьшение количества ошибок, прозрачность процессов.</p>
+</li>
+<li>
+<p>Производственно-экономические показатели — экономический эффект: снижение затрат, уменьшение времени обработки, рост выручки, сокращение персонала на рутинных операциях.</p>
+</li>
+<li>
+<p>Критерии оценки достижения целей — <strong>как поймем, что цели достигнуты</strong>:</p>
+</li>
+<li>
+<p>«Сокращение времени обработки заявки с 10 до 3 минут»,</p>
+</li>
+<li>«Снижение процента ошибок ввода на 30%»,</li>
+<li>«Увеличение пропускной способности системы до 1000 запросов/час».</li>
+</ul>
+<h4 id="22_1">2.2. Назначение АС</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Кратко описать, <strong>какую деятельность автоматизирует система</strong>.</p>
+</li>
+<li>
+<p>Пример: «АС предназначена для автоматизации процесса приема, регистрации и обработки обращений клиентов колл-центра».</p>
+</li>
+</ul>
+<h3 id="3_1">3. Характеристика объектов автоматизации</h3>
+<h4 id="31">3.1. Основные сведения об объекте автоматизации</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Описать <strong>куда внедряется система</strong>: отдел, предприятие, процесс.</li>
+<li>
+<p>Кратко:</p>
+</li>
+<li>
+<p>структура подразделений,</p>
+</li>
+<li>какие операции выполняются,</li>
+<li>текущие проблемы (ручной учет, дублирование данных и т.д.).</li>
+<li>Можно сослаться на отдельный документ (описание бизнес-процесса).</li>
+</ul>
+<h4 id="32">3.2. Сведения об условиях эксплуатации и окружающей среде</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать <strong>условия работы системы</strong>:</p>
+</li>
+<li>
+<p>офис, дата-центр, удаленный доступ;</p>
+</li>
+<li>режим работы: круглосуточно/смены;</li>
+<li>наличие интернет-доступа;</li>
+<li>требования к температуре, влажности, электропитанию (если уместно).</li>
+<li>Для чисто программной веб-системы можно кратко: «Работа в офисных условиях, стандартные требования к ПК и сети».</li>
+</ul>
+<h3 id="4_1">4. Требования к автоматизированной системе</h3>
+<h4 id="41">4.1. Требования к структуре АС в целом</h4>
+<h5 id="411">4.1.1. Перечень подсистем</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Разбить систему на логические подсистемы (модули).</li>
+<li>Заполнить таблицу:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>№</th>
+<th>Подсистема</th>
+<th>Назначение</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Подсистема заявок</td>
+<td>Учет обращений клиентов</td>
+<td>Создание, редактирование, поиск заявок</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Подсистема отчетности</td>
+<td>Формирование отчетов</td>
+<td>Отчеты по операторам, по статусам и т.д.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="412">4.1.2. Требования к информационному взаимодействию компонентов</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать, <strong>как подсистемы обмениваются данными</strong>:</p>
+</li>
+<li>
+<p>через БД, API, очереди сообщений, файлы.</p>
+</li>
+<li>Указать основные способы интеграции.</li>
+</ul>
+<h5 id="413">4.1.3. Требования к взаимосвязям со смежными АС</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Перечислить <strong>другие системы</strong>, с которыми нужно связаться:</p>
+</li>
+<li>
+<p>бухгалтерия, склад, CRM, внешние сервисы.</p>
+</li>
+<li>Описать, какие данные и в каком формате передаются.</li>
+</ul>
+<h5 id="414">4.1.4. Требования к интероперабельности</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать, <strong>насколько легко систему можно интегрировать</strong> с другими:</p>
+</li>
+<li>
+<p>наличие открытых API,</p>
+</li>
+<li>использование стандартных протоколов (HTTP, REST, JSON).</li>
+</ul>
+<h5 id="415">4.1.5. Требования к совместимости и обмену информацией</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Указать, с какими ОС, БД, форматами файлов система совместима.</li>
+<li>
+<p>Примеры:</p>
+</li>
+<li>
+<p>веб-браузеры,</p>
+</li>
+<li>версии ОС,</li>
+<li>форматы Excel, PDF, XML, JSON.</li>
+</ul>
+<h4 id="42">4.2. Требования к функциям (задачам), выполняемым АС</h4>
+<p>Здесь вы систематизируете <strong>функциональные требования</strong>, но в логике ГОСТ 34.</p>
+<h5 id="421">4.2.1. Временной регламент реализации функций</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>На сколько быстро должна выполняться та или иная функция:</p>
+</li>
+<li>
+<p>«Создание заявки — не более 3 секунд»,</p>
+</li>
+<li>«Формирование отчета — до 30 секунд».</li>
+</ul>
+<h5 id="422">4.2.2. Требование реализации каждой функции</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Перечислить все ключевые функции (похожие на функциональные требования):</p>
+</li>
+<li>
+<p>регистрации, поиска, редактирования, удаления данных,</p>
+</li>
+<li>фильтрация, сортировка, экспорт.</li>
+</ul>
+<h5 id="423">4.2.3. Требования к форме представления выходной информации</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать:</p>
+</li>
+<li>
+<p>в каком виде данные выводятся (таблица, график, отчет в PDF/Excel),</p>
+</li>
+<li>точность чисел, формат дат/времени,</li>
+<li>максимальное время формирования отчетов.</li>
+</ul>
+<h5 id="424">4.2.4. Требования одновременности и достоверности</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Описать, <strong>сколько пользователей</strong> одновременно может работать.</li>
+<li>Требования к корректности данных: отсутствие потери данных, защита от конфликтов.</li>
+</ul>
+<h5 id="425">4.2.5. Перечень и критерии отказов</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать типы отказов:</p>
+</li>
+<li>
+<p>недоступность БД,</p>
+</li>
+<li>отсутствие сети,</li>
+<li>ошибки при записи.</li>
+<li>Указать, что считается отказом и как на это реагирует система.</li>
+</ul>
+<h5 id="426">4.2.6. Требования по диагностированию АС</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать, <strong>какие механизмы логирования и мониторинга</strong> нужны:</p>
+</li>
+<li>
+<p>журналы событий,</p>
+</li>
+<li>сбор ошибок,</li>
+<li>уведомления администратору.</li>
+</ul>
+<h5 id="427">4.2.7. Перспективы развития, модернизации АС</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Перечислить возможные направления развития:</p>
+</li>
+<li>
+<p>новые модули,</p>
+</li>
+<li>интеграция с новыми системами,</li>
+<li>расширение числа пользователей.</li>
+</ul>
+<h4 id="43">4.3. Требования к видам обеспечения АС</h4>
+<h5 id="431">4.3.1. Информационное обеспечение</h5>
+<ul>
+<li>4.3.1.1. Состав и структура данных — описать сущности, таблицы, связи.</li>
+<li>4.3.1.2. Информационный обмен — как данные переходят между компонентами и внешними системами.</li>
+<li>4.3.1.3. Информационная совместимость — форматы, кодировки.</li>
+<li>4.3.1.4. Классификаторы и справочники — какие используются (список статусов, типы заявок и т.д.).</li>
+<li>4.3.1.5. СУБД — какая БД, какие требования.</li>
+<li>4.3.1.6. Представление данных — в интерфейсе, отчеты.</li>
+<li>4.3.1.7. Контроль, хранение, восстановление — бэкапы, архивы.</li>
+</ul>
+<h5 id="432">4.3.2. Лингвистическое обеспечение</h5>
+<ul>
+<li>4.3.2.1. Языки в АС — русский/английский интерфейс, расширяемость.</li>
+<li>4.3.2.2. Организация диалога — текстовый UI, формы, сообщения об ошибках.</li>
+<li>4.3.2.3. Словари, тезаурусы — при необходимости, например для терминов.</li>
+<li>4.3.2.4. Синтаксис языков запросов/скриптов (если есть).</li>
+</ul>
+<h5 id="433">4.3.3. Программное обеспечение</h5>
+<ul>
+<li>4.3.3.1. Состав ПО — серверное, клиентское, БД, вспомогательные утилиты.</li>
+<li>4.3.3.2. Выбор ПО — ОС, СУБД, фреймворки, обоснование.</li>
+<li>4.3.3.3. Требования к разрабатываемому ПО — архитектура, язык, стандарты кодирования.</li>
+<li>4.3.3.4. Покупные средства — лицензируемые продукты, если есть.</li>
+</ul>
+<h5 id="434">4.3.4. Техническое обеспечение</h5>
+<ul>
+<li>4.3.4.1. Виды технических средств — серверы, рабочие станции, принтеры.</li>
+<li>4.3.4.2. Характеристики — минимальные конфигурации, производительность.</li>
+</ul>
+<h5 id="435">4.3.5. Метрологическое обеспечение</h5>
+<p>(актуально для АС, связанных с измерениями.)</p>
+<ul>
+<li>Описать, если система что-то измеряет (температуру, параметры производства).</li>
+<li>Для информационных АС часто: «Особых метрологических требований нет».</li>
+</ul>
+<h5 id="436">4.3.6. Организационное обеспечение</h5>
+<ul>
+<li>4.3.6.1. Структура и функции подразделений, связанных с АС.</li>
+<li>4.3.6.2. Порядок взаимодействия пользователей и администраторов.</li>
+<li>4.3.6.3. Действия при сбоях и авариях.</li>
+<li>4.3.6.4. Порядок обеспечения нормативными документами.</li>
+</ul>
+<h5 id="437">4.3.7. Методическое обеспечение</h5>
+<ul>
+<li>4.3.7.1. Перечень методик, стандартов, инструкций.</li>
+<li>4.3.7.2. Как эти документы предоставляются разработчикам и пользователям.</li>
+</ul>
+<h4 id="44">4.4. Общие технические требования к АС</h4>
+<h5 id="441">4.4.1. Требования к персоналу</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Описать, какие компетенции требуются от пользователей и администраторов.</li>
+</ul>
+<h5 id="442">4.4.2. Требования к показателям назначения</h5>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>Указать, какие показатели система должна обеспечивать (производительность, пропускная способность, доступность).</li>
+</ul>
+<h5 id="443">4.4.3. Требования к надежности</h5>
+<ul>
+<li>Показатели надежности: время безотказной работы, MTBF, допустимое время простоя.</li>
+<li>Перечень аварийных ситуаций и требования к восстановлению.</li>
+<li>Надежность техники и ПО.</li>
+<li>Методы контроля надежности (тестирование, мониторинг).</li>
+</ul>
+<h5 id="444">4.4.4. Требования по безопасности</h5>
+<ul>
+<li>Охрана труда, электробезопасность, экологическая безопасность.</li>
+<li>Для ИС — дополнительно: защита данных, доступ по ролям, шифрование.</li>
+</ul>
+<h5 id="445">4.4.5. Требования к эргономике и технической эстетике</h5>
+<ul>
+<li>Требования к интерфейсу, удобству работы, оформлению экранов.</li>
+<li>Организация рабочей зоны пользователя.</li>
+</ul>
+<h5 id="446">4.4.6. Требования к транспортабельности</h5>
+<ul>
+<li>Для мобильных/передвижных систем; часто неактуально — можно указать «не применимо».</li>
+</ul>
+<h5 id="447">4.4.7. Требования к эксплуатации, обслуживанию и хранению</h5>
+<ul>
+<li>Режим эксплуатации.</li>
+<li>Периодичность техобслуживания.</li>
+<li>Требования к помещению (площадь, питание, кондиционирование).</li>
+<li>Запасные части и регламент сервисных работ.</li>
+</ul>
+<h3 id="5_1">5. Состав и содержание работ по созданию АС</h3>
+<h4 id="51">5.1. Перечень этапов работ и сроки</h4>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>Описать <strong>этапы проекта</strong>:</p>
+</li>
+<li>
+<p>анализ и ТЗ,</p>
+</li>
+<li>проектирование,</li>
+<li>разработка,</li>
+<li>тестирование,</li>
+<li>опытная эксплуатация,</li>
+<li>ввод в промышленную эксплуатацию.</li>
+<li>Для каждого — примерные сроки.</li>
+</ul>
+<h3 id="6_1">6. Порядок разработки автоматизированной системы</h3>
+<h4 id="61">6.1. Порядок организации разработки</h4>
+<ul>
+<li>Кто отвечает за что, распределение ролей (заказчик, разработчик, куратор).</li>
+</ul>
+<h4 id="62">6.2. Перечень исходных данных</h4>
+<ul>
+<li>Какие документы и данные нужны для старта: анкеты, регламенты, описания процессов.</li>
+</ul>
+<h4 id="63">6.3. Перечень документов по этапам</h4>
+<ul>
+<li>Какие документы выдаются на каждом этапе: ТЗ, эскизный проект, рабочая документация, акты испытаний.</li>
+</ul>
+<h4 id="64">6.4. Порядок экспертизы документации</h4>
+<ul>
+<li>Кто и как согласует и утверждает ТЗ и проектные документы.</li>
+</ul>
+<h4 id="65">6.5. Перечень макетов (если нужны)</h4>
+<ul>
+<li>Наличие прототипов, пилотных версий; как они разрабатываются и тестируются.</li>
+</ul>
+<h4 id="66">6.6. Порядок разработки и утверждения плана совместных работ</h4>
+<ul>
+<li>Как согласуются графики и планы между заказчиком и разработчиком.</li>
+</ul>
+<h3 id="7_1">7. Порядок контроля и приёмки автоматизированной системы</h3>
+<h4 id="71">7.1. Виды, состав и методы испытаний</h4>
+<ul>
+<li>Предварительные испытания, приемочные, интеграционные.</li>
+<li>Методы проверки (тест-планы, сценарии).</li>
+</ul>
+<h4 id="72">7.2. Общие требования к приемке</h4>
+<ul>
+<li>Какие документы подаются на приемку, кто подписывает акты.</li>
+</ul>
+<h4 id="73">7.3. Статус приемочной комиссии</h4>
+<ul>
+<li>Какого уровня комиссия: внутренняя, ведомственная, межведомственная.</li>
+</ul>
+<h3 id="8">8. Требования к работам по подготовке объекта автоматизации</h3>
+<h4 id="81">8.1. Создание условий функционирования</h4>
+<ul>
+<li>Что нужно подготовить у заказчика: сеть, оборудование, рабочие места.</li>
+</ul>
+<h4 id="82-">8.2. Организационно-штатные мероприятия</h4>
+<ul>
+<li>Изменения в структуре персонала, назначение ответственных, ввод новых ролей.</li>
+</ul>
+<h4 id="83">8.3. Порядок обучения персонала</h4>
+<ul>
+<li>Как проводится обучение: инструкции, тренинги, сроки.</li>
+</ul>
+<h3 id="9">9. Требования к документированию</h3>
+<h4 id="91">9.1. Перечень разрабатываемых документов</h4>
+<ul>
+<li>Какие документы нужно подготовить: ТЗ, руководство пользователя, админ-гайд и т.д.</li>
+</ul>
+<h4 id="92">9.2. Вид представления и количество</h4>
+<ul>
+<li>Электронная/бумажная форма, количество экземпляров.</li>
+</ul>
+<h4 id="93">9.3. Требования по ЕСКД и ЕСПД</h4>
+<ul>
+<li>Указать, что документация должна быть оформлена по соответствующим стандартам (если требуется).</li>
+</ul>
+<h3 id="_1">Источники разработки</h3>
+<p><strong>Что делать:</strong></p>
+<ul>
+<li>
+<p>В конце привести список:</p>
+</li>
+<li>
+<p>ГОСТы,</p>
+</li>
+<li>законы,</li>
+<li>учебники,</li>
+<li>внутренние регламенты,</li>
+<li>учебное задание/методические указания.</li>
+</ul>
+<h3 id="23"><strong>2.3. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть сохранены и вставлены в отчёт в виде изображений с подписями.</p>
+<h3 id="24"><strong>2.4. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h3 id="3_2"><strong>3. Контрольные вопросы</strong></h3>
+<p>Отсутсвуют для данной лабораторной работы.</p>
+<hr>
+<h3 id="4-"><strong>4. Чек-лист для самопроверки</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Баллы</th>
+<th>Критерии выполнения</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5</strong></td>
+<td>Работа выполнена полностью и строго по ГОСТ 34. Все разделы раскрыты подробно: описаны цели, объект автоматизации, требования к системе, подсистемы, функции, виды обеспечения, порядок разработки, приемка и документирование. Приведены таблицы, схемы, диаграммы, ссылки на нормативные документы, логическая структура выдержана. Текст оригинальный, анализ выполнен глубоко, терминология корректная.</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>Все обязательные разделы ТЗ присутствуют и заполнены. Описание корректное, но отдельные разделы могут быть раскрыты не полностью (например, не все виды обеспечения описаны детально или слабо раскрыты требования к надежности/безопасности). Общая логика соблюдена, качество хорошее, но требуется доработать несколько пунктов.</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Работа выполнена частично: заполнены основные разделы (общие сведения, цели, назначение, характеристики объекта, функциональные требования), но отсутствуют или упрощены важные технические разделы (интероперабельность, метрологическое обеспечение, требования по безопасности, порядок приемки). Много общих слов, мало конкретики. Есть ошибки в структуре или логике.</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>Значительная часть ТЗ отсутствует. Большинство разделов раскрыто поверхностно. Нет требований к функциям, видам обеспечения или описания структуры АС. Не хватает таблиц, диаграмм, анализ выполнен минимально. Замечания по структуре и соответствию ГОСТ критические.</td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td>Работа содержит лишь фрагменты ТЗ или разрозненные данные. Логика ГОСТ 34 нарушена. Отсутствуют ключевые разделы, требования, характеристики объекта автоматизации. Нет анализа и самостоятельной проработки материала.</td>
+</tr>
+<tr>
+<td><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="5_2"><strong>5. Ссылка на скачивание шаблона отчета</strong></h3>
+<p>👉 <a href="../assets/tempales/LR2.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
