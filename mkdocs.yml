@@ -1,5 +1,9 @@
 site_name: Лабораторные работы по дисциплине "ТРПО"
-  
+site_url: https://olgakraven.github.io/DKIP.PM.02.MDK.02-TRPOLab/
+repo_url: https://github.com/OlgaKraven/DKIP.PM.02.MDK.02-TRPOLab
+
+use_directory_urls: false
+
 theme:
   name: material
   logo: assets/icons/logo.png
@@ -11,6 +15,7 @@ theme:
     - navigation.top        # "наверх"
     - navigation.tracking   # подсветка активного пункта в правом TOC
     - toc.follow            # правый TOC следует за прокруткой
+  use_directory_urls: false
 plugins:
 - glightbox
 - search
@@ -28,7 +33,6 @@ nav:
         - Лабораторная работа 8: lab8.md
         - Лабораторная работа 9: lab9.md
         - Лабораторная работа 10: lab10.md
-
     - Требования для оформления: requirements.md
 markdown_extensions:
   - admonition
