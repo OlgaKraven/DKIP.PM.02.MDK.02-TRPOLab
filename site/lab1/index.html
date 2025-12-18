@@ -1,0 +1,1916 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../domains/">
+      
+      
+        <link rel="next" href="../lab2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 1 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no1" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Анализ предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Название компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Расширенное описание предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Организационная структура компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Описание программного продукта
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. Описание программного продукта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1. Название программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2. Вид программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Основные пользователи системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Ключевые процессы в программном обеспечении
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Требования к системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8. Требования к системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Сценарий работы программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10. Алгоритм работы системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Описание задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Название компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Расширенное описание предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Организационная структура компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Описание программного продукта
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Описание программного продукта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Название программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Вид программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Основные пользователи системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Ключевые процессы в программном обеспечении
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5. Требования к системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5. Требования к системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Сценарий работы программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Алгоритм работы системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Анализ предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Название компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Расширенное описание предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Организационная структура компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Описание программного продукта
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5. Описание программного продукта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.1. Название программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5.2. Вид программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Основные пользователи системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Ключевые процессы в программном обеспечении
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Требования к системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.8. Требования к системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#181" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#182" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Сценарий работы программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10. Алгоритм работы системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Описание задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Название компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Расширенное описание предметной области
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Организационная структура компании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Описание программного продукта
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Описание программного продукта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1. Название программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2. Вид программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3. Основные пользователи системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4. Ключевые процессы в программном обеспечении
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5. Требования к системе
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.5. Требования к системе">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#451" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Сценарий работы программного обеспечения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Алгоритм работы системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no1"><strong>Лабораторная работа №1 – Анализ предметной области</strong></h1>
+<h2 id="1"><strong>1. Теория</strong></h2>
+<h3 id="10"><strong>1.0. Цель работы</strong></h3>
+<p>Целью лабораторной работы является освоение методов анализа предметной области, направленных на понимание логики функционирования бизнес-процессов, выявление ключевых ролей и объектов системы.</p>
+<h3 id="11"><strong>1.1. Анализ предметной области</strong></h3>
+<p><strong>Предметная область</strong> — это совокупность процессов, объектов и участников реальной деятельности, для которой разрабатывается программное обеспечение. Анализ предметной области позволяет понять, какие задачи выполняются в организации и каким образом они могут быть автоматизированы.</p>
+<p><strong>Пример:</strong>
+Для интернет-магазина предметной областью является процесс онлайн-продаж товаров: оформление заказов, оплата, доставка и работа с клиентами.</p>
+<p>Анализ предметной области является начальным этапом проектирования программного обеспечения и представляет собой процесс изучения реальной деятельности организации, для которой создаётся информационная система. Предметная область включает в себя совокупность объектов, процессов, правил, участников и информационных потоков, существующих в рамках конкретной сферы деятельности.</p>
+<p>Цель анализа предметной области — получить полное и структурированное представление о том, <strong>какие задачи решаются в организации, кем и каким образом</strong>, а также определить, какие из этих задач целесообразно автоматизировать с помощью программного продукта.</p>
+<h3 id="12"><strong>1.2. Название компании</strong></h3>
+<p>Название компании определяет объект автоматизации и используется во всей проектной документации. Компания рассматривается как система с определёнными функциями, ресурсами и внутренними процессами.</p>
+<p><strong>Пример:</strong>
+Компания «TechStore» — организация, занимающаяся розничной продажей электроники через интернет.</p>
+<p>Указание названия компании позволяет определить объект автоматизации и зафиксировать контекст, в котором будет использоваться разрабатываемая система. Компания рассматривается как организационная структура, обладающая определёнными функциями, ресурсами и бизнес-процессами, требующими информационной поддержки.</p>
+<h3 id="13"><strong>1.3. Расширенное описание предметной области</strong></h3>
+<p>Расширенное описание предметной области включает детальную характеристику деятельности компании, её основных направлений работы и особенностей функционирования. В данном разделе рассматриваются:</p>
+<ul>
+<li>сфера деятельности организации;</li>
+<li>основные виды выполняемых операций;</li>
+<li>характер взаимодействия между сотрудниками и подразделениями;</li>
+<li>существующие проблемы и ограничения текущих процессов.</li>
+</ul>
+<p>Данный этап анализа позволяет выявить ключевые процессы и определить области, в которых внедрение программного обеспечения повысит эффективность работы.</p>
+<p><strong>Пример:</strong>
+Компания осуществляет приём заказов через сайт, обработку заказов менеджерами, хранение информации о клиентах и формирование отчётов о продажах. Основной проблемой является высокая нагрузка на менеджеров и ручная обработка данных.</p>
+<h3 id="14"><strong>1.4. Организационная структура компании</strong></h3>
+<p>Организационная структура компании отражает распределение обязанностей, ответственности и подчинённости между сотрудниками и подразделениями. Анализ структуры необходим для определения ролей пользователей будущей системы и их уровня доступа к информации и функциям.</p>
+<p>Организационная структура, как правило, представляется в виде схемы, а функции сотрудников уточняются в табличной форме. Это позволяет установить связь между должностными обязанностями персонала и задачами, которые будут поддерживаться программным обеспечением.</p>
+<p>Организационная структура показывает распределение обязанностей между сотрудниками и подразделениями. Она необходима для определения ролей пользователей системы.</p>
+<figure>
+<p><strong>Пример:</strong>
+</p><pre class="mermaid"><code>flowchart TB
+    CEO[Директор компании]
+    CEO --&gt; SalesManager[Менеджер по продажам]
+    CEO --&gt; Accountant[Бухгалтер]
+    CEO --&gt; ITAdmin[Администратор системы]
+    SalesManager --&gt; SalesEmployee1[Специалист по работе с клиентами]
+    SalesManager --&gt; SalesEmployee2[Оператор заказов]
+    ITAdmin --&gt; Support[Техническая поддержка]</code></pre><p></p>
+<figcaption>
+<p>Рисунок 1 - Пример организационной структуры компании</p>
+</figcaption>
+</figure>
+<p><strong>Пояснение к схеме</strong></p>
+<ul>
+<li><strong>Директор компании</strong> — осуществляет общее руководство и принимает управленческие решения.</li>
+<li><strong>Менеджер по продажам</strong> — отвечает за обработку заказов и работу с клиентами.</li>
+<li><strong>Бухгалтер</strong> — ведёт финансовый и налоговый учёт.</li>
+<li><strong>Администратор системы</strong> — обеспечивает работу программного обеспечения и поддержку пользователей.</li>
+<li><strong>Специалисты и операторы</strong> — выполняют операционные задачи.</li>
+</ul>
+<h3 id="15"><strong>1.5. Описание программного продукта</strong></h3>
+<p>Описание программного продукта формирует общее представление о системе, её назначении и области применения. В данном разделе определяется, для каких целей создаётся программное обеспечение и какие задачи оно должно решать.</p>
+<h4 id="151"><strong>1.5.1. Название программного обеспечения</strong></h4>
+<p>Название программного обеспечения должно отражать его функциональное назначение и использоваться во всей проектной документации.</p>
+<p><strong>Пример:</strong>
+«TechStore Management System».</p>
+<h4 id="152"><strong>1.5.2. Вид программного обеспечения</strong></h4>
+<p>Вид программного обеспечения определяется по способу использования и архитектуре (например, веб-приложение, настольное приложение, информационная система). От выбора вида ПО зависят требования к реализации, эксплуатации и сопровождению системы.</p>
+<p>Вид ПО определяется способом использования и архитектурой системы.</p>
+<p><strong>Пример:</strong>
+Веб-приложение для управления интернет-магазином.</p>
+<h3 id="16"><strong>1.6. Основные пользователи системы</strong></h3>
+<p><strong>Пользователи системы</strong> — это категории лиц, которые взаимодействуют с программным продуктом при выполнении своих профессиональных обязанностей. Для каждой категории пользователей определяются задачи, которые они решают с помощью системы.</p>
+<p>Выделение пользователей позволяет:</p>
+<ul>
+<li>корректно сформировать функциональные требования;</li>
+<li>разграничить права доступа;</li>
+<li>спроектировать удобный пользовательский интерфейс.</li>
+</ul>
+<p><strong>Пример:</strong></p>
+<ul>
+<li>администратор — управление пользователями и настройками;</li>
+<li>менеджер — обработка заказов;</li>
+<li>клиент — оформление и отслеживание заказов.</li>
+</ul>
+<hr>
+<h3 id="17"><strong>1.7. Ключевые процессы в программном обеспечении</strong></h3>
+<p>Ключевые процессы представляют собой основные виды деятельности, которые поддерживаются или автоматизируются системой. Они описывают последовательность действий, выполняемых пользователями, и ожидаемый результат выполнения.</p>
+<p>Анализ процессов позволяет определить границы системы и обеспечить соответствие функционала реальным потребностям пользователей.</p>
+<p><strong>Пример:</strong>
+Процесс «Оформление заказа» включает выбор товара клиентом, подтверждение заказа, обработку менеджером и передачу данных в бухгалтерию.</p>
+<h3 id="18"><strong>1.8. Требования к системе</strong></h3>
+<p>Требования к системе формируются на основе анализа предметной области и определяют, какими возможностями и характеристиками должно обладать программное обеспечение.</p>
+<h4 id="181"><strong>1.8.1. Функциональные требования</strong></h4>
+<p>Функциональные требования описывают конкретные функции и операции, которые должна выполнять система, а также действия, доступные пользователям.</p>
+<p><strong>Пример:</strong>
+Система должна обеспечивать создание, редактирование и просмотр заказов для менеджера.</p>
+<h4 id="182"><strong>1.8.2. Нефункциональные требования</strong></h4>
+<p>Нефункциональные требования определяют качественные характеристики системы, такие как производительность, надёжность, безопасность, удобство использования и требования к эксплуатации.</p>
+<p>Разделение требований на функциональные и нефункциональные обеспечивает структурированный и управляемый процесс разработки.</p>
+<p><strong>Пример:</strong>
+Система должна обеспечивать время отклика не более 2 секунд при одновременной работе 50 пользователей.</p>
+<h3 id="19"><strong>1.9. Сценарий работы программного обеспечения</strong></h3>
+<p>Сценарий работы программного обеспечения описывает типовое взаимодействие пользоателя с системой при выполнении конкретной задачи. Сценарии позволяют наглядно представить работу системы с точки зрения пользователя и выявить возможные логические несоответствия.</p>
+<p><strong>Пример:</strong>
+Пользователь заходит на сайт, выбирает товар, добавляет его в корзину, оформляет заказ и получает подтверждение по электронной почте.</p>
+<h3 id="110"><strong>1.10. Алгоритм работы системы</strong></h3>
+<p>Алгоритм работы системы отражает внутреннюю логику функционирования программного продукта и порядок обработки данных. Он описывает последовательность действий, условия переходов и возможные варианты выполнения операций.</p>
+<p>Алгоритмы часто представляются в виде блок-схем, что упрощает понимание работы системы и служит основой для её реализации.</p>
+<figure>
+<pre class="mermaid"><code>flowchart TD
+    Start([Начало работы системы])
+
+    Start --&gt; Auth[Вход пользователя в систему]
+    Auth --&gt; CheckAuth{Данные корректны?}
+
+    CheckAuth -- Нет --&gt; ErrorAuth[Сообщение об ошибке]
+    ErrorAuth --&gt; Auth
+
+    CheckAuth -- Да --&gt; MainMenu[Главное меню системы]
+
+    MainMenu --&gt; SelectAction[Выбор действия пользователем]
+
+    SelectAction --&gt; ProcessData[Ввод и обработка данных]
+    ProcessData --&gt; SaveData[Сохранение данных в базе]
+    SaveData --&gt; Result[Отображение результата]
+
+    Result --&gt; Continue{Продолжить работу?}
+
+    Continue -- Да --&gt; MainMenu
+    Continue -- Нет --&gt; End([Завершение работы системы])</code></pre>
+<figcaption>
+<p>Рисунок 2 - Пример алгоритма работы системы</p>
+</figcaption>
+</figure>
+<p><strong>Пояснение к алгоритму</strong></p>
+<ul>
+<li><strong>Начало работы системы</strong> — запуск программного продукта.</li>
+<li><strong>Вход пользователя</strong> — аутентификация пользователя.</li>
+<li><strong>Проверка данных</strong> — контроль логина и пароля.</li>
+<li><strong>Главное меню</strong> — выбор доступных функций.</li>
+<li><strong>Обработка данных</strong> — выполнение основных операций системы.</li>
+<li><strong>Сохранение данных</strong> — запись результатов в базу данных.</li>
+<li><strong>Завершение работы</strong> — выход пользователя из системы.</li>
+</ul>
+<hr>
+<h2 id="2"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется информационная система по предметной области, закреплённой за студентом на семестр.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в ЛМС. </p>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<p><strong>Раздел: Анализ предметной области</strong></p>
+<p>В рамках выполнения данного задания студенту необходимо провести анализ предметной области и на его основе сформировать структурированное описание организации и разрабатываемого программного продукта.</p>
+<h4 id="1_1"><strong>1. Название компании</strong></h4>
+<p>В данном пункте требуется указать наименование компании (реальной или условной), для которой разрабатывается программное обеспечение. Название компании определяет объект автоматизации и используется во всей дальнейшей документации.</p>
+<h4 id="2_1"><strong>2. Расширенное описание предметной области</strong></h4>
+<p>Необходимо подробно описать сферу деятельности компании, её основные функции и особенности работы. В описании следует отразить:</p>
+<ul>
+<li>направление деятельности организации;</li>
+<li>основные выполняемые операции;</li>
+<li>проблемы и ограничения текущих процессов;</li>
+<li>причины необходимости внедрения программного продукта.</li>
+</ul>
+<h4 id="3"><strong>3. Организационная структура компании</strong></h4>
+<p>Требуется описать организационную структуру компании, указав основные должности и подчинённость сотрудников.</p>
+<ul>
+<li>Организационная структура должна быть представлена в виде схемы (Рисунок 1).</li>
+<li>Дополнительно необходимо заполнить <strong>Таблицу 1</strong>, в которой описываются функции сотрудников: их должности и выполняемые обязанности.</li>
+</ul>
+<h4 id="4"><strong>4. Описание программного продукта</strong></h4>
+<h5 id="41"><strong>4.1. Название программного обеспечения</strong></h5>
+<p>Указывается название разрабатываемого программного продукта.</p>
+<h5 id="42"><strong>4.2. Вид программного обеспечения</strong></h5>
+<p>Необходимо определить вид ПО (например, веб-приложение, настольное приложение, информационная система и т.п.).</p>
+<h5 id="43"><strong>4.3. Основные пользователи системы</strong></h5>
+<p>Следует определить категории пользователей системы и описать задачи, которые они решают с помощью программного обеспечения. Информация оформляется в <strong>Таблице 2</strong>.</p>
+<h4 id="44"><strong>4.4. Ключевые процессы в программном обеспечении</strong></h4>
+<p>Необходимо выделить основные процессы, которые поддерживаются или автоматизируются системой. Для каждого процесса указывается:</p>
+<ul>
+<li>название процесса;</li>
+<li>краткое описание;</li>
+<li>участники процесса.</li>
+</ul>
+<p>Данные оформляются в <strong>Таблице 3</strong>.</p>
+<h4 id="45"><strong>4.5. Требования к системе</strong></h4>
+<h5 id="451">4.5.1. Функциональные требования</h5>
+<p>В <strong>Таблице 4</strong> необходимо перечислить функции, которые должна выполнять система, и указать, для какого пользователя они предназначены.</p>
+<h5 id="452">4.5.2. Нефункциональные требования</h5>
+<p>В <strong>Таблице 5</strong> требуется описать качественные характеристики системы (производительность, надёжность, безопасность, удобство использования и др.) с указанием пользователей или условий эксплуатации.</p>
+<h4 id="5"><strong>5. Сценарий работы программного обеспечения</strong></h4>
+<p>Необходимо описать типовой сценарий взаимодействия пользователя с системой — последовательность действий от начала работы до получения результата.</p>
+<h4 id="6"><strong>6. Алгоритм работы системы</strong></h4>
+<p>Требуется описать общий алгоритм работы системы, отражающий логику обработки данных и выполнения основных операций. Алгоритм может быть представлен в текстовом виде и дополнен блок-схемой.</p>
+<h3 id="22"><strong>2.2. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть сохранены и вставлены в отчёт в виде изображений с подписями.</p>
+<h3 id="23"><strong>2.3. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h2 id="3_1"><strong>3. Контрольные вопросы</strong></h2>
+<ol>
+<li>Что такое предметная область? </li>
+<li>Какие существуют проблемы в выбранной предметной области? </li>
+<li>Кто является пользователями системы? </li>
+<li>В чем разница между функциональными и нефункциональными требованиями? </li>
+<li>Какие инструменты можно использовать для документирования предметной области?</li>
+</ol>
+<hr>
+<h2 id="4-"><strong>4. Чек-лист для самопроверки</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Баллы</th>
+<th>Критерии выполнения</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><strong>5</strong></td>
+<td>Работа выполнена <strong>полностью, самостоятельно и осмысленно</strong>. Представлен глубокий анализ предметной области с аргументированным описанием деятельности компании и выявлением проблемных зон. Организационная структура детализирована и обоснована, схема и таблица функций сотрудников полностью согласованы. Описание программного продукта логично вытекает из анализа предметной области, корректно определён вид ПО. Пользователи системы описаны полно, их задачи чётко связаны с функциональными требованиями. Ключевые процессы отражают реальную бизнес-логику и корректно распределены по ролям. Функциональные и нефункциональные требования сформулированы корректно, без дублирования, с указанием пользователей и условий эксплуатации. Сценарий работы ПО подробный, отражает реальное взаимодействие пользователя с системой. Алгоритм работы системы представлен логично и наглядно (в том числе в виде блок-схемы). Работа оформлена аккуратно, структура выдержана, отсутствуют логические и терминологические ошибки.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>4</strong></td>
+<td>Работа выполнена полностью и самостоятельно. Все разделы заполнены, однако анализ предметной области и процессов выполнен без углубления. Возможны незначительные упрощения в описании требований или сценариев работы.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>3</strong></td>
+<td>Работа выполнена в целом корректно, но отдельные разделы раскрыты поверхностно. Допущены неточности в формулировках или неполное раскрытие требований и процессов.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>2</strong></td>
+<td>Работа выполнена частично. Отсутствуют или формально заполнены несколько ключевых разделов. Наблюдается слабая связь между предметной областью и описанием программного продукта.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>1</strong></td>
+<td>Работа выполнена формально и фрагментарно. Большинство разделов заполнено шаблонно, без понимания сути анализа предметной области.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5_1"><strong>5. Ссылка на скачивание шаблона отчета</strong></h2>
+<p>👉 <a href="../assets/tempales/LR1.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

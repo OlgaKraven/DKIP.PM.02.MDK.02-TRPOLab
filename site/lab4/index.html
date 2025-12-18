@@ -1,0 +1,2084 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab3/">
+      
+      
+        <link rel="next" href="../lab5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 4 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no4-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 4
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-uml-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль UML-диаграмм в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-use-case-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Диаграмма вариантов использования (Use Case Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Диаграмма вариантов использования (Use Case Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Назначение диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Основные элементы диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.2. Основные элементы диаграммы вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Актор (Actor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вариант использования (Use Case)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Граница системы (System Boundary)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Типы связей на диаграмме вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.3. Типы связей на диаграмме вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#association" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ассоциация (Association)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#include" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Включение (include)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расширение (extend)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обобщение (Generalization)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.4. Практическое значение диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-collaboration-communication-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Диаграмма кооперации (Collaboration / Communication Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Диаграмма кооперации (Collaboration / Communication Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Назначение диаграммы кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Место диаграммы кооперации в проектировании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Основные элементы диаграммы кооперации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.3. Основные элементы диаграммы кооперации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Объект
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связь (Link)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сообщение (Message)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4. Особенности нотации диаграммы кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Связь диаграмм вариантов использования и кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Значение диаграмм в учебных и практических проектах
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Описание задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.1. Диаграмма вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.1. Диаграмма вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Требования к выполнению
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ожидаемые варианты использования (примерный перечень)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.2. Диаграмма кооперации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.2. Диаграмма кооперации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Требования к выполнению
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.3. Аналитическое пояснение (обязательно)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-uml-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль UML-диаграмм в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-use-case-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Диаграмма вариантов использования (Use Case Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Диаграмма вариантов использования (Use Case Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Назначение диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Основные элементы диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.2. Основные элементы диаграммы вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Актор (Actor)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вариант использования (Use Case)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Граница системы (System Boundary)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Типы связей на диаграмме вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.3. Типы связей на диаграмме вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#association" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ассоциация (Association)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#include" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Включение (include)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расширение (extend)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обобщение (Generalization)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#124" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.4. Практическое значение диаграммы вариантов использования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-collaboration-communication-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Диаграмма кооперации (Collaboration / Communication Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Диаграмма кооперации (Collaboration / Communication Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Назначение диаграммы кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Место диаграммы кооперации в проектировании
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Основные элементы диаграммы кооперации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.3. Основные элементы диаграммы кооперации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Объект
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связь (Link)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сообщение (Message)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4. Особенности нотации диаграммы кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Связь диаграмм вариантов использования и кооперации
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Значение диаграмм в учебных и практических проектах
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Описание задания">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.1. Диаграмма вариантов использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.1. Диаграмма вариантов использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Требования к выполнению
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ожидаемые варианты использования (примерный перечень)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.2. Диаграмма кооперации
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.2. Диаграмма кооперации">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Требования к выполнению
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.3. Аналитическое пояснение (обязательно)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no4-">Лабораторная работа №4 - Создание диаграммы вариантов использования и кооперации</h1>
+<h2 id="1"><strong>1. Теория</strong></h2>
+<h3 id="10"><strong>1.0. Цель работы</strong></h3>
+<p>Закрепить навыки анализа функциональных требований, а также освоить построение UML-диаграмм вариантов использования и диаграмм кооперации для моделирования поведения информационной системы.</p>
+<h3 id="11-uml-"><strong>1.1. Общая роль UML-диаграмм в проектировании информационных систем</strong></h3>
+<p><strong>UML (Unified Modeling Language)</strong> — это унифицированный язык визуального моделирования, применяемый для описания, анализа, проектирования и документирования программных и информационных систем.</p>
+<p>UML-диаграммы позволяют:</p>
+<ul>
+<li>формализовать требования заказчика;</li>
+<li>снизить неоднозначность трактовки функциональности;</li>
+<li>обеспечить единое понимание системы между аналитиками, разработчиками и заказчиком;</li>
+<li>служить основой для архитектурных и проектных решений.</li>
+</ul>
+<p>Диаграммы вариантов использования и диаграммы кооперации относятся к <strong>поведенческим диаграммам UML</strong>, так как описывают поведение системы и взаимодействие её элементов.</p>
+<h3 id="12-use-case-diagram"><strong>1.2. Диаграмма вариантов использования (Use Case Diagram)</strong></h3>
+<p>Рассмотрим абстрактную <strong>информационную систему управления заявками (Service System)</strong>.</p>
+<p>Акторы:</p>
+<ul>
+<li>Пользователь</li>
+<li>Администратор</li>
+<li>Внешняя платёжная система</li>
+</ul>
+<p>Основные функции:</p>
+<ul>
+<li>создание заявки;</li>
+<li>просмотр статуса;</li>
+<li>оплата услуги;</li>
+<li>администрирование заявок.</li>
+</ul>
+<h4 id="121"><strong>1.2.1. Назначение диаграммы вариантов использования</strong></h4>
+<p>Диаграмма вариантов использования предназначена для <strong>описания функциональных требований к системе с точки зрения пользователя или внешних систем</strong>.</p>
+<p>Она отвечает на вопросы:</p>
+<ul>
+<li>какие функции предоставляет система;</li>
+<li>кто может пользоваться этими функциями;</li>
+<li>при каких условиях выполняются сценарии.</li>
+</ul>
+<p>Use Case Diagram отражает <strong>внешний взгляд на систему</strong>, не затрагивая детали реализации, архитектуры и внутренней логики.</p>
+<h4 id="122"><strong>1.2.2. Основные элементы диаграммы вариантов использования</strong></h4>
+<h5 id="actor"><strong>Актор (Actor)</strong></h5>
+<p><strong>Актор</strong> — это внешняя по отношению к системе сущность, взаимодействующая с ней.</p>
+<p>В роли актора могут выступать:</p>
+<ul>
+<li>пользователь (клиент, администратор, оператор);</li>
+<li>внешняя информационная система;</li>
+<li>аппаратное устройство;</li>
+<li>сервис или API.</li>
+</ul>
+<p>Актор не является частью системы, он только инициирует или получает результат её работы.</p>
+<h5 id="use-case">Вариант использования (Use Case)</h5>
+<p><strong>Вариант использования</strong> — это законченный сценарий взаимодействия актора с системой, направленный на достижение конкретной цели.</p>
+<p>Характерные особенности:</p>
+<ul>
+<li>описывает <em>что</em> делает система, а не <em>как</em>;</li>
+<li>формулируется глаголом в неопределённой форме (например: «Оформить заказ», «Просмотреть отчёт»);</li>
+<li>имеет практическую ценность для пользователя.</li>
+</ul>
+<h5 id="system-boundary"><strong>Граница системы (System Boundary)</strong></h5>
+<p>Граница системы определяет:</p>
+<ul>
+<li>какие функции входят в состав разрабатываемой системы;</li>
+<li>какие взаимодействия считаются внешними.</li>
+</ul>
+<p>Все варианты использования располагаются <strong>внутри границы</strong>, акторы — <strong>за её пределами</strong>.</p>
+<h4 id="123"><strong>1.2.3. Типы связей на диаграмме вариантов использования</strong></h4>
+<h5 id="association"><strong>Ассоциация (Association)</strong></h5>
+<p>Показывает факт взаимодействия актора с вариантом использования.
+Обозначается сплошной линией.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/411.png" data-desc-position="bottom"><img alt="Ассоциация" src="../assets/images/411.png"></a></p>
+<figcaption>
+<p>Рисунок 1 – Ассоцияция</p>
+</figcaption>
+</figure>
+<p>Пояснение:</p>
+<ul>
+<li>акторы расположены вне границы системы;</li>
+<li>все варианты использования находятся внутри системы;</li>
+<li>диаграмма отражает <strong>только функциональные требования</strong>, без деталей реализации.</li>
+</ul>
+<h5 id="include">Включение (include)</h5>
+<p>Используется, когда один вариант использования <strong>всегда</strong> включает выполнение другого.</p>
+<p>Назначение:</p>
+<ul>
+<li>устранение дублирования;</li>
+<li>повторное использование общего функционала.</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/412.png" data-desc-position="bottom"><img alt="Включение" src="../assets/images/412.png"></a></p>
+<figcaption>
+<p>Рисунок 2 – Включение</p>
+</figcaption>
+</figure>
+<p>Пояснение:</p>
+<ul>
+<li>проверка данных выполняется <strong>всегда</strong> при создании заявки;</li>
+<li>логика проверки вынесена в отдельный вариант использования.</li>
+</ul>
+<h5 id="extend">Расширение (extend)</h5>
+<p>Используется для описания <strong>дополнительного, условного поведения</strong>, которое выполняется не всегда.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/413.png" data-desc-position="bottom"><img alt="Расширение" src="../assets/images/413.png"></a></p>
+<figcaption>
+<p>Рисунок 3 – Расширение</p>
+</figcaption>
+</figure>
+<p>Пояснение:</p>
+<ul>
+<li>применение промокода выполняется <strong>опционально</strong>;</li>
+<li>основной сценарий не зависит от дополнительного.</li>
+</ul>
+<h5 id="generalization">Обобщение (Generalization)</h5>
+<p>Применяется для:</p>
+<ul>
+<li>иерархий акторов;</li>
+<li>обобщённых вариантов использования.</li>
+</ul>
+<p>Позволяет показать наследование поведения.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/414.png" data-desc-position="bottom"><img alt="Обобщение" src="../assets/images/414.png"></a></p>
+<figcaption>
+<p>Рисунок 4 – Обобщение</p>
+</figcaption>
+</figure>
+<p>Пояснение:</p>
+<ul>
+<li>администратор наследует возможности обычного пользователя;</li>
+<li>обобщение упрощает диаграмму и исключает дублирование связей.</li>
+</ul>
+<h4 id="124"><strong>1.2.4. Практическое значение диаграммы вариантов использования</strong></h4>
+<p>Диаграмма вариантов использования:</p>
+<ul>
+<li>служит отправной точкой для разработки технического задания;</li>
+<li>помогает выявить неполные или противоречивые требования;</li>
+<li>используется как основа для тест-кейсов и пользовательских сценариев;</li>
+<li>упрощает коммуникацию с заказчиком.</li>
+</ul>
+<h3 id="13-collaboration-communication-diagram"><strong>1.3. Диаграмма кооперации (Collaboration / Communication Diagram)</strong></h3>
+<h4 id="131"><strong>1.3.1. Назначение диаграммы кооперации</strong></h4>
+<p>Диаграмма кооперации предназначена для <strong>описания взаимодействия объектов системы при выполнении конкретного сценария</strong>.</p>
+<p>Она показывает:</p>
+<ul>
+<li>какие объекты участвуют в процессе;</li>
+<li>какие сообщения передаются между ними;</li>
+<li>в каком порядке происходит взаимодействие.</li>
+</ul>
+<p>В отличие от диаграммы вариантов использования, диаграмма кооперации отражает <strong>внутреннюю логику выполнения сценария</strong>.</p>
+<h4 id="132"><strong>1.3.2. Место диаграммы кооперации в проектировании</strong></h4>
+<p>Диаграмма кооперации используется:</p>
+<ul>
+<li>после формирования вариантов использования;</li>
+<li>при проектировании архитектуры и классов;</li>
+<li>для анализа распределения ответственности между компонентами.</li>
+</ul>
+<p>Она часто применяется как альтернатива диаграмме последовательности, но делает акцент не на временной шкале, а на структуре связей между объектами.</p>
+<h4 id="133"><strong>1.3.3. Основные элементы диаграммы кооперации</strong></h4>
+<h5 id="_1"><strong>Объект</strong></h5>
+<p><strong>Объект</strong> — это экземпляр класса, участвующий во взаимодействии.</p>
+<p>Обычно объекты представляют:</p>
+<ul>
+<li>контроллеры;</li>
+<li>сервисы;</li>
+<li>репозитории;</li>
+<li>пользовательский интерфейс;</li>
+<li>внешние сервисы.</li>
+</ul>
+<h5 id="link"><strong>Связь (Link)</strong></h5>
+<p>Связь отражает возможность обмена сообщениями между объектами.</p>
+<h5 id="message"><strong>Сообщение (Message)</strong></h5>
+<p>Сообщение обозначает:</p>
+<ul>
+<li>вызов метода;</li>
+<li>передачу данных;</li>
+<li>событие.</li>
+</ul>
+<p>Сообщения нумеруются (1, 1.1, 1.2 и т.д.), что позволяет определить порядок выполнения операций.</p>
+<h4 id="134"><strong>1.3.4. Особенности нотации диаграммы кооперации</strong></h4>
+<ul>
+<li>порядок выполнения задаётся <strong>нумерацией сообщений</strong>, а не вертикальной осью времени;</li>
+<li>диаграмма компактнее и удобнее для анализа архитектурных связей;</li>
+<li>хорошо подходит для отображения сервисно-ориентированных и многослойных архитектур.</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/415.png" data-desc-position="bottom"><img alt="Диаграмма кооперации" src="../assets/images/415.png"></a></p>
+<figcaption>
+<p>Рисунок 5 – Диаграмма кооперации</p>
+</figcaption>
+</figure>
+<h3 id="14"><strong>1.4. Связь диаграмм вариантов использования и кооперации</strong></h3>
+<p>Диаграммы вариантов использования и кооперации применяются <strong>совместно</strong>:</p>
+<ul>
+<li>диаграмма вариантов использования отвечает на вопрос
+  <strong>«Что должна делать система?»</strong>;</li>
+<li>диаграмма кооперации отвечает на вопрос
+  <strong>«Как объекты системы взаимодействуют при выполнении этой функции?»</strong>.</li>
+</ul>
+<p>Типовой порядок работы:</p>
+<ol>
+<li>Формируются акторы и варианты использования.</li>
+<li>Для каждого ключевого варианта использования выбирается сценарий.</li>
+<li>Для сценария строится диаграмма кооперации.</li>
+<li>На основе диаграмм уточняются классы, интерфейсы и архитектура.</li>
+</ol>
+<h3 id="15"><strong>1.5. Значение диаграмм в учебных и практических проектах</strong></h3>
+<p>Использование диаграмм вариантов использования и кооперации:</p>
+<ul>
+<li>формирует системное мышление;</li>
+<li>обучает декомпозиции требований;</li>
+<li>облегчает переход от анализа к проектированию;</li>
+<li>соответствует требованиям ГОСТ 34 и современным методологиям разработки ПО;</li>
+<li>является обязательным элементом проектной документации в учебных и реальных ИС.</li>
+</ul>
+<hr>
+<h2 id="2"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется информационная система по предметной области, закреплённой за студентом на семестр.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в ЛМС.
+Предметная область должна быть согласована с ранее выполненными лабораторными работами. </p>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<h4 id="211"><strong>2.1.1. Диаграмма вариантов использования</strong></h4>
+<h5 id="_2">Требования к выполнению</h5>
+<ol>
+<li>Построить диаграмму вариантов использования (Use Case Diagram).</li>
+<li>Определить не менее <strong>4 вариантов использования</strong>.</li>
+<li>Указать всех акторов и их взаимодействие с системой.</li>
+<li>
+<p>Использовать:</p>
+</li>
+<li>
+<p>минимум <strong>одну связь include</strong>;</p>
+</li>
+<li>минимум <strong>одну связь extend</strong>;</li>
+<li>при необходимости — <strong>обобщение акторов</strong>.</li>
+</ol>
+<h5 id="_3">Ожидаемые варианты использования (примерный перечень)</h5>
+<ul>
+<li>Создать заявку</li>
+<li>Просмотреть статус заявки</li>
+<li>Обработать заявку</li>
+<li>Изменить статус заявки</li>
+<li>Отправить уведомление</li>
+</ul>
+<blockquote>
+<p>Допускается добавление собственных вариантов использования при обосновании.</p>
+</blockquote>
+<h4 id="212"><strong>2.1.2. Диаграмма кооперации</strong></h4>
+<h5 id="_4">Требования к выполнению</h5>
+<ol>
+<li>Выбрать <strong>один вариант использования</strong> из задания 1 (рекомендуется: <em>«Создать заявку»</em> или <em>«Обработать заявку»</em>).</li>
+<li>Построить диаграмму кооперации (Collaboration / Communication Diagram), отражающую внутренний сценарий выполнения выбранного варианта использования.</li>
+<li>Определить не менее <strong>4 объектов</strong>, участвующих во взаимодействии.</li>
+<li>
+<p>Отразить:</p>
+</li>
+<li>
+<p>последовательность сообщений;</p>
+</li>
+<li>взаимодействие с внешним сервисом (если применимо).</li>
+<li>Использовать <strong>нумерацию сообщений</strong>.</li>
+</ol>
+<h4 id="213"><strong>2.1.3. Аналитическое пояснение (обязательно)</strong></h4>
+<p>В отчёте описать:</p>
+<ol>
+<li>Почему были выбраны именно эти акторы.</li>
+<li>Логику выделения вариантов использования.</li>
+<li>Роль каждого объекта на диаграмме кооперации.</li>
+<li>Как диаграммы помогают понять архитектуру системы.</li>
+</ol>
+<h3 id="22"><strong>2.2. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть сохранены и вставлены в отчёт в виде изображений с подписями.</p>
+<h3 id="23"><strong>2.3. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h2 id="3"><strong>3. Контрольные вопросы</strong></h2>
+<ol>
+<li>В чём заключается основное назначение диаграммы вариантов использования?</li>
+<li>Что такое актор и чем он отличается от пользователя системы?</li>
+<li>Какие элементы обязательно присутствуют на диаграмме вариантов использования?</li>
+<li>В каких случаях используется связь include и чем она отличается от extend?</li>
+<li>Что обозначает граница системы на диаграмме вариантов использования?</li>
+<li>Для каких целей применяется диаграмма кооперации?</li>
+<li>Какие элементы включает диаграмма кооперации?</li>
+<li>Как задаётся порядок выполнения операций на диаграмме кооперации?</li>
+<li>В чём принципиальное отличие диаграммы кооперации от диаграммы последовательности?</li>
+<li>Как диаграммы вариантов использования и кооперации дополняют друг друга при проектировании ИС?</li>
+</ol>
+<hr>
+<h2 id="4-"><strong>4. Чек-лист для самопроверки</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Баллы</th>
+<th>Критерии оценки</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><strong>5</strong></td>
+<td><strong>Работа выполнена полностью и качественно:</strong> <br> – построены обе диаграммы (Use Case и кооперации); <br>– корректно определены акторы и граница системы;<br>– использованы связи <strong>include</strong> и <strong>extend</strong> по назначению;<br>– диаграмма кооперации содержит ≥4 объекта и пронумерованные сообщения;<br>– логика взаимодействия обоснована и соответствует выбранному варианту использования;<br>– диаграммы оформлены в без ошибок и читаемы;<br>– присутствует аналитическое пояснение с объяснением принятых решений.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>4</strong></td>
+<td><strong>Работа выполнена в целом корректно:</strong><br>– обе диаграммы присутствуют;<br>– допущены незначительные неточности в нотации или логике;<br>– используется только одна из связей (<strong>include</strong> и <strong>extend</strong>) либо слабое пояснение.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>3</strong></td>
+<td><strong>Работа выполнена частично:</strong><br>– построены диаграммы, но с нарушением нотации;<br>– недостаточное количество акторов или объектов;<br>– диаграмма кооперации отражает сценарий поверхностно;<br>– пояснение формальное.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>2</strong></td>
+<td><strong>Работа выполнена фрагментарно:</strong><br>– представлена только одна диаграмма;<br>– отсутствует нумерация сообщений или граница системы;<br>– логика взаимодействия не раскрыта.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>1</strong></td>
+<td><strong>Минимальный уровень выполнения:</strong><br>– диаграммы представлены в виде заготовок;<br>– отсутствует понимание предметной области;<br>– пояснение отсутствует или не соответствует работе.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5"><strong>5. Ссылка на скачивание шаблона отчета</strong></h2>
+<p>👉 <a href="../assets/tempales/LR4.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

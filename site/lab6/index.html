@@ -1,0 +1,1909 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab5/">
+      
+      
+        <link rel="next" href="../lab7/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 6 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no6-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 6
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.0. Цель работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-uml-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль UML-диаграмм в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Диаграмма деятельности (Activity Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Диаграмма деятельности (Activity Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Назначение диаграммы деятельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Основные элементы диаграммы деятельности
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.2. Основные элементы диаграммы деятельности">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Начальное состояние (Initial Node)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Действие (Action)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поток управления (Control Flow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Условие (Decision / Merge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fork-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Параллельное выполнение (Fork / Join)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Конечное состояние (Final Node)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Пример диаграммы деятельности (Activity Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Диаграмма состояний (State Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Диаграмма состояний (State Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Назначение диаграммы состояний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Основные элементы диаграммы состояний
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.2. Основные элементы диаграммы состояний">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Состояние (State)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Событие (Event)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Переход (Transition)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Начальное состояние
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Конечное состояние
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133-state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Пример диаграммы состояний (State Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Сравнение диаграммы деятельности и диаграммы состояний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Значение диаграмм деятельности и состояний в проектировании ИС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.0. Цель работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-uml-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Общая роль UML-диаграмм в проектировании информационных систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Диаграмма деятельности (Activity Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2. Диаграмма деятельности (Activity Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.1. Назначение диаграммы деятельности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#122" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.2. Основные элементы диаграммы деятельности
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2.2. Основные элементы диаграммы деятельности">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Начальное состояние (Initial Node)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Действие (Action)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Поток управления (Control Flow)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Условие (Decision / Merge)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fork-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Параллельное выполнение (Fork / Join)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Конечное состояние (Final Node)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#123-activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2.3. Пример диаграммы деятельности (Activity Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Диаграмма состояний (State Diagram)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Диаграмма состояний (State Diagram)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Назначение диаграммы состояний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Основные элементы диаграммы состояний
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3.2. Основные элементы диаграммы состояний">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Состояние (State)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Событие (Event)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Переход (Transition)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Начальное состояние
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Конечное состояние
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133-state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Пример диаграммы состояний (State Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Сравнение диаграммы деятельности и диаграммы состояний
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Значение диаграмм деятельности и состояний в проектировании ИС
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no6-">Лабораторная работа №6 - Создание диаграммы деятельности и диаграммы состояний</h1>
+<h2 id="1"><strong>1. Теория</strong></h2>
+<h2 id="10"><strong>1.0. Цель работы</strong></h2>
+<p>Целью лабораторной работы является изучение и практическое освоение <strong>диаграммы деятельности</strong> и <strong>диаграммы состояний UML</strong>, а также формирование навыков:</p>
+<ul>
+<li>моделирования бизнес-процессов и алгоритмов работы информационной системы;</li>
+<li>описания логики выполнения действий и переходов между ними;</li>
+<li>анализа состояний объектов и условий их изменения;</li>
+<li>формализации динамического поведения системы на разных уровнях абстракции;</li>
+<li>использования UML-диаграмм при проектировании и документировании информационных систем.</li>
+</ul>
+<h3 id="11-uml-"><strong>1.1. Общая роль UML-диаграмм в проектировании информационных систем</strong></h3>
+<p><strong>UML (Unified Modeling Language)</strong> — это унифицированный язык визуального моделирования, применяемый для описания, анализа, проектирования и документирования программных и информационных систем.</p>
+<p>UML-диаграммы позволяют:</p>
+<ul>
+<li>формализовать требования к системе;</li>
+<li>представить логику работы системы в наглядном виде;</li>
+<li>выявить ошибки проектирования на ранних этапах;</li>
+<li>обеспечить единое понимание процессов между аналитиками, разработчиками и заказчиком;</li>
+<li>использовать модели как основу для реализации и сопровождения системы.</li>
+</ul>
+<p>В UML выделяют несколько групп диаграмм. В рамках данной лабораторной работы рассматриваются <strong>поведенческие диаграммы</strong>, описывающие динамику работы системы:</p>
+<ul>
+<li><strong>диаграмма деятельности</strong>;</li>
+<li><strong>диаграмма состояний</strong>.</li>
+</ul>
+<p>Эти диаграммы фокусируются на <em>процессах</em> и <em>состояниях</em>, а не на структуре классов и компонентов.</p>
+<h3 id="12-activity-diagram"><strong>1.2. Диаграмма деятельности (Activity Diagram)</strong></h3>
+<p><strong>Диаграмма деятельности</strong> используется для <strong>описания алгоритмов, бизнес-процессов и потоков управления</strong> в информационной системе.</p>
+<p>Она отражает последовательность выполняемых действий, условия переходов и возможное параллельное выполнение операций.</p>
+<p>Диаграмма деятельности наглядно показывает:</p>
+<ul>
+<li>какие действия выполняются в системе;</li>
+<li>в каком порядке они происходят;</li>
+<li>при каких условиях выполняются альтернативные ветви;</li>
+<li>какие действия могут выполняться параллельно.</li>
+</ul>
+<p>Диаграмма деятельности применяется как для описания логики отдельных функций, так и для моделирования бизнес-процессов целиком.</p>
+<h4 id="121"><strong>1.2.1. Назначение диаграммы деятельности</strong></h4>
+<p>Диаграмма деятельности предназначена для:</p>
+<ul>
+<li>моделирования бизнес-процессов предметной области;</li>
+<li>описания алгоритмов работы системы;</li>
+<li>детализации вариантов использования;</li>
+<li>анализа потоков управления и данных;</li>
+<li>выявления узких мест и логических ошибок в процессах.</li>
+</ul>
+<p>Она отвечает на вопросы:</p>
+<ul>
+<li>какие шаги выполняет система;</li>
+<li>в какой последовательности они выполняются;</li>
+<li>какие условия влияют на ход выполнения;</li>
+<li>где возможны альтернативные пути выполнения.</li>
+</ul>
+<p>Диаграмма деятельности отражает <strong>процессный взгляд на систему</strong>.</p>
+<h4 id="122"><strong>1.2.2. Основные элементы диаграммы деятельности</strong></h4>
+<h5 id="initial-node"><strong>Начальное состояние (Initial Node)</strong></h5>
+<p>Начальное состояние обозначает точку старта выполнения процесса.</p>
+<h5 id="action"><strong>Действие (Action)</strong></h5>
+<p><strong>Действие</strong> — это элементарный шаг алгоритма или бизнес-процесса, выполняемый системой.</p>
+<h5 id="control-flow"><strong>Поток управления (Control Flow)</strong></h5>
+<p>Поток управления показывает направление перехода от одного действия к другому.</p>
+<h5 id="decision-merge"><strong>Условие (Decision / Merge)</strong></h5>
+<p>Используется для ветвления процесса в зависимости от логического условия.</p>
+<h5 id="fork-join"><strong>Параллельное выполнение (Fork / Join)</strong></h5>
+<p>Позволяет моделировать одновременное выполнение нескольких действий.</p>
+<h5 id="final-node"><strong>Конечное состояние (Final Node)</strong></h5>
+<p>Обозначает завершение выполнения процесса.</p>
+<h3 id="123-activity-diagram"><strong>1.2.3. Пример диаграммы деятельности (Activity Diagram)</strong></h3>
+<p>Рассмотрим пример процесса <strong>обработка заказов в информационной системе</strong>.</p>
+<p>Диаграмма отражает:</p>
+<ul>
+<li>ролей (клиент, менеджер, бухгалтер, кладовщик);</li>
+<li>условий оплаты и сроков;</li>
+<li>возврата денег;</li>
+<li>отмены заказа;</li>
+<li>корректного завершения процесса.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>flowchart TD
+
+    %% Клиент
+    subgraph Клиент
+        A([Начало])
+        B[Выбор товаров]
+        C[Оплата счёта]
+    end
+
+    %% Менеджер
+    subgraph Менеджер
+        D[Определение наличия товаров]
+        E{Поставка возможна?}
+        F[Создание заказа]
+        G[Отмена заказа]
+    end
+
+    %% Бухгалтер
+    subgraph Бухгалтер
+        H[Оформление счёта]
+        I{Счёт оплачен в срок?}
+        J[Выписка накладной]
+        K[Возврат денег]
+    end
+
+    %% Кладовщик
+    subgraph Кладовщик
+        L[Сборка заказа]
+        M[Отгрузка]
+    end
+
+    %% Основной поток
+    A --&gt; B
+    B --&gt; D
+    D --&gt; E
+
+    %% Поставка невозможна
+    E -- Нет --&gt; G
+    G --&gt; Z([Конец])
+
+    %% Поставка возможна
+    E -- Да --&gt; F
+    F --&gt; H
+    H --&gt; C
+
+    %% Оплата
+    C --&gt; I
+
+    %% Оплачено в срок
+    I -- Да --&gt; J
+    J --&gt; L
+    L --&gt; M
+    M --&gt; Z
+
+    %% Оплачено с опозданием / не оплачено
+    I -- Нет --&gt; K
+    K --&gt; G
+    G --&gt; Z
+</code></pre>
+<figcaption>
+<p>Рисунок 1 – Диаграмма деятельности: процесс обработки заказа</p>
+</figcaption>
+</figure>
+<h3 id="13-state-diagram"><strong>1.3. Диаграмма состояний (State Diagram)</strong></h3>
+<p><strong>Диаграмма состояний</strong> предназначена для <strong>описания жизненного цикла объекта</strong> и изменения его состояния в результате событий.</p>
+<p>Она фокусируется не на действиях системы, а на том, <strong>в каких состояниях может находиться объект и как он переходит из одного состояния в другое</strong>.</p>
+<p>Диаграмма состояний применяется для объектов, поведение которых существенно зависит от их текущего состояния (заявка, заказ, пользователь, документ).</p>
+<h4 id="131"><strong>1.3.1. Назначение диаграммы состояний</strong></h4>
+<p>Диаграмма состояний используется для:</p>
+<ul>
+<li>моделирования жизненного цикла сущностей;</li>
+<li>описания допустимых состояний объекта;</li>
+<li>определения событий, вызывающих переходы между состояниями;</li>
+<li>анализа корректности переходов и ограничений;</li>
+<li>предотвращения логических ошибок в управлении состояниями.</li>
+</ul>
+<p>Она отвечает на вопросы:</p>
+<ul>
+<li>в каких состояниях может находиться объект;</li>
+<li>какие события приводят к изменению состояния;</li>
+<li>какие переходы разрешены, а какие запрещены.</li>
+</ul>
+<p>Диаграмма состояний отражает <strong>событийный и состоянийный взгляд на систему</strong>.</p>
+<h4 id="132"><strong>1.3.2. Основные элементы диаграммы состояний</strong></h4>
+<h5 id="state"><strong>Состояние (State)</strong></h5>
+<p><strong>Состояние</strong> — это устойчивое положение объекта, в котором он обладает определёнными свойствами и поведением.</p>
+<h5 id="event"><strong>Событие (Event)</strong></h5>
+<p>Событие инициирует переход объекта из одного состояния в другое.</p>
+<h5 id="transition"><strong>Переход (Transition)</strong></h5>
+<p>Переход показывает изменение состояния объекта при наступлении события и выполнении условия.</p>
+<h5 id="_1"><strong>Начальное состояние</strong></h5>
+<p>Обозначает состояние, в котором объект создаётся.</p>
+<h5 id="_2"><strong>Конечное состояние</strong></h5>
+<p>Отражает завершение жизненного цикла объекта.</p>
+<h3 id="133-state-diagram"><strong>1.3.3. Пример диаграммы состояний (State Diagram)</strong></h3>
+<p>Рассмотрим пример создание профиля.</p>
+<p>Диаграмма отражает:</p>
+<ul>
+<li>начальное состояние и возвраты;</li>
+<li>вложенные (композитные) состояния «Вход» и «Создание профиля»;</li>
+<li>проверки корректности (guard-условия);</li>
+<li>финал сценария для успешного входа/регистрации.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>stateDiagram-v2
+    [*] --&gt; ВыборСпособаВхода
+
+    %% Ветка: Вход
+    ВыборСпособаВхода --&gt; Вход : Войти
+    state "Вход" as Вход {
+        [*] --&gt; ВводЛогинаПароля
+
+        ВводЛогинаПароля --&gt; ПроверкаЛогинаПароля : Отправить
+        ПроверкаЛогинаПароля --&gt; ВводЛогинаПароля : [логин/пароль неверный]
+        ПроверкаЛогинаПароля --&gt; УспешныйВход : [логин/пароль верный]
+
+        ВводЛогинаПароля --&gt; ВосстановлениеПароля : Забыли пароль?
+        state "Восстановление пароля" as ВосстановлениеПароля {
+            [*] --&gt; ВводEmail
+            ВводEmail --&gt; ПроверкаEmail : Отправить
+            ПроверкаEmail --&gt; ВводEmail : [email неверный]
+            ПроверкаEmail --&gt; РезультатВосстановления : [email верный]
+            РезультатВосстановления --&gt; [*] : Завершить
+        }
+
+        ВосстановлениеПароля --&gt; ВводЛогинаПароля : Назад ко входу
+
+        УспешныйВход --&gt; [*]
+    }
+
+    %% Ветка: Регистрация/создание профиля
+    ВыборСпособаВхода --&gt; СозданиеПрофиля : Создать профиль
+    state "Создание профиля" as СозданиеПрофиля {
+        [*] --&gt; ВводДанныхРегистрации
+        ВводДанныхРегистрации --&gt; ПроверкаДанных : Отправить
+
+        ПроверкаДанных --&gt; ВводДанныхРегистрации : [данные неполные или некорректные]
+        ПроверкаДанных --&gt; ДиалогДопДанных : [все обязательные данные введены и корректны]
+
+        state "Диалог добавления фото и т.п." as ДиалогДопДанных {
+            [*] --&gt; ДобавитьФото
+            ДобавитьФото --&gt; ЗаполнитьДопПоля : Далее
+            ЗаполнитьДопПоля --&gt; [*] : Завершить
+        }
+
+        ДиалогДопДанных --&gt; ПрофильСоздан : Подтвердить
+        ПрофильСоздан --&gt; [*]
+    }
+
+    %% Возвраты к выбору способа входа
+    Вход --&gt; ВыборСпособаВхода : Возврат
+    СозданиеПрофиля --&gt; ВыСозданиеПрофиля : dummy
+</code></pre>
+<figcaption>
+<p>Рисунок 2 – Диаграмма состояний: жизненный цикл заявки</p>
+</figcaption>
+</figure>
+<h3 id="14"><strong>1.4. Сравнение диаграммы деятельности и диаграммы состояний</strong></h3>
+<p>Диаграммы деятельности и состояний решают разные, но взаимосвязанные задачи:</p>
+<ul>
+<li>диаграмма деятельности описывает <strong>процесс выполнения действий</strong>;</li>
+<li>диаграмма состояний описывает <strong>изменение состояний объекта</strong>.</li>
+</ul>
+<p>Диаграмма деятельности применяется для моделирования алгоритмов и бизнес-процессов, а диаграмма состояний — для анализа поведения конкретных сущностей системы.</p>
+<p>Совместное использование этих диаграмм позволяет глубже понять динамику работы информационной системы.</p>
+<h3 id="15"><strong>1.5. Значение диаграмм деятельности и состояний в проектировании ИС</strong></h3>
+<p>Использование диаграмм деятельности и состояний позволяет:</p>
+<ul>
+<li>повысить наглядность и формализованность описания процессов;</li>
+<li>выявить ошибки логики до этапа реализации;</li>
+<li>упростить коммуникацию между участниками проекта;</li>
+<li>обеспечить соответствие реализации требованиям предметной области.</li>
+</ul>
+<p>Данные UML-диаграммы являются важным инструментом проектирования и широко применяются как в учебных, так и в промышленных информационных системах.</p>
+<hr>
+<h2 id="2"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется <strong>информационная система по предметной области, закреплённой за студентом на семестр</strong>.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в <strong>ЛМС</strong>.</p>
+<p>Предметная область должна быть согласована с ранее выполненными лабораторными работами. </p>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<p>Необходимо выполнить моделирование динамического поведения информационной системы с использованием <strong>UML-диаграммы деятельности</strong> и <strong>UML-диаграммы состояний</strong>.</p>
+<p>В рамках задания требуется:</p>
+<ol>
+<li>Выбрать <strong>один ключевой процесс</strong> информационной системы
+   (например: оформление заказа, вход и регистрация пользователя, обработка заявки, выполнение расчёта, согласование документа).</li>
+<li>
+<p>Построить <strong>диаграмму деятельности</strong>, отражающую:</p>
+<ul>
+<li>последовательность действий;</li>
+<li>условия ветвления;</li>
+<li>альтернативные сценарии;</li>
+<li>возможное параллельное выполнение действий;</li>
+<li>начало и завершение процесса.</li>
+</ul>
+</li>
+<li>
+<p>Выбрать <strong>одну ключевую сущность системы</strong>
+   (например: пользователь, заявка, заказ, проект, расчёт).</p>
+</li>
+<li>
+<p>Построить <strong>диаграмму состояний</strong>, отражающую:</p>
+<ul>
+<li>возможные состояния объекта;</li>
+<li>события, вызывающие переходы между состояниями;</li>
+<li>допустимые и недопустимые переходы;</li>
+<li>начальное и конечное состояния.</li>
+</ul>
+</li>
+</ol>
+<p>Диаграммы должны быть <strong>логически связаны</strong> между собой и соответствовать выбранной предметной области.</p>
+<hr>
+<h3 id="22"><strong>2.2. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть:</p>
+<ul>
+<li>выполнены в UML-нотации;</li>
+<li>сохранены в виде изображений;</li>
+<li>вставлены в отчёт с подписями вида
+  <em>«Рисунок X – Диаграмма деятельности …»</em>,
+  <em>«Рисунок Y – Диаграмма состояний …»</em>.</li>
+</ul>
+<hr>
+<h3 id="23"><strong>2.3. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h2 id="3"><strong>3. Контрольные вопросы</strong></h2>
+<ol>
+<li>В чём основное назначение диаграммы деятельности?</li>
+<li>Чем диаграмма деятельности отличается от диаграммы последовательности?</li>
+<li>Какие элементы обязательно присутствуют на диаграмме деятельности?</li>
+<li>Для чего используются узлы ветвления и слияния?</li>
+<li>В каких случаях целесообразно использовать параллельные ветви (fork/join)?</li>
+<li>Что моделирует диаграмма состояний?</li>
+<li>Чем состояние отличается от действия?</li>
+<li>Что такое событие и переход на диаграмме состояний?</li>
+<li>Почему диаграмма состояний особенно важна для сущностей с жизненным циклом?</li>
+<li>Как связаны диаграмма деятельности и диаграмма состояний в рамках одного проекта?</li>
+</ol>
+<hr>
+<h2 id="4-"><strong>4. Чек-лист для самопроверки</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Баллы</th>
+<th>Критерии выполнения</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;"><strong>5</strong></td>
+<td>Построены диаграмма деятельности и диаграмма состояний; диаграммы логически связаны; корректно отражены действия, состояния, условия и переходы; соблюдена UML-нотация; оформление полностью соответствует требованиям.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>4</strong></td>
+<td>Обе диаграммы представлены, но допущены незначительные логические или методические неточности (частично отсутствуют альтернативные ветви, не полностью раскрыты состояния).</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>3</strong></td>
+<td>Диаграммы построены формально; логическая связь между процессом и состояниями выражена слабо; имеются ошибки в обозначениях.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>1–2</strong></td>
+<td>Представлена только одна диаграмма или обе диаграммы содержат существенные ошибки, нарушающие логику предметной области.</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5"><strong>5. Ссылка на скачивание шаблона отчета</strong></h2>
+<p>👉 <a href="../assets/tempales/LR6.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

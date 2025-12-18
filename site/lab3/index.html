@@ -1,0 +1,4005 @@
+<!DOCTYPE html><html lang="ru" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../lab2/">
+      
+      
+        <link rel="next" href="../lab4/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/icons/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Лабораторная работа 3 - Лабораторные работы по дисциплине "ТРПО"</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#no3-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-header__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Лабораторные работы по дисциплине "ТРПО"
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Лабораторная работа 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Лабораторные работы по дисциплине &quot;ТРПО&quot;" class="md-nav__button md-logo" aria-label="Лабораторные работы по дисциплине " ТРПО"" data-md-component="logo">
+      
+  <img src="../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Лабораторные работы по дисциплине "ТРПО"
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Описание лабораторных работ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Предметные области
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторные работы
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Лабораторные работы
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Понятие архитектуры программного средства
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Цели построения архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Компоненты архитектуры программного средства
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Компоненты архитектуры программного средства">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Функциональная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Логическая архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Физическая архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4. Архитектура данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.5. Интеграционная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#136" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.6. Архитектура безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#137-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.7. Архитектура эксплуатации (DevOps)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Архитектурные стили
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Архитектурные стили">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Монолитная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2. Клиент-серверная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143-layered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3. Слоистая (Layered) архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4. Микросервисная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145-service-oriented-architecture-soa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5. Service-Oriented Architecture (SOA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#146-event-driven-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.6. Event-driven Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Архитектурные паттерны
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Требования, влияющие на архитектуру
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6. Требования, влияющие на архитектуру">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Технологические решения и ограничения
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Документирование архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Процесс построения архитектуры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.9. Процесс построения архитектуры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 1. Анализ требований
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 2. Выбор архитектурного стиля
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 3. Проектирование логической структуры
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 4. Проектирование данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 5. Проектирование интеграций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-proof-of-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 6. Разработка прототипов (Proof of Concept)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 7. Документирование решений
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 8. Архитектурный аудит
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10. Ключевые качества хорошей архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11. Создание диаграммы C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11. Создание диаграммы C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1111-c4-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.1. Общие сведения о C4 Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1112-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.2. Что такое компонент в C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.2. Что такое компонент в C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основные элементы C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Основные элементы C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пользователи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Программная система
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Контейнер
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.3. Основной принцип выделения компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1114-c4-component-tier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4. Типы компонентов в архитектуре (C4 Component Tier)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.4. Типы компонентов в архитектуре (C4 Component Tier)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11141-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.1. Контроллеры (Controllers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11142-business-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.2. Сервисы бизнес-логики (Business Services)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11143-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.3. Репозитории (Repositories)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11144-adapters-gateways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.4. Адаптеры внешних систем (Adapters / Gateways)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11145-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.5. Провайдеры инфраструктуры (Providers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11146-event-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.6. Компоненты событий (Event Components)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1115-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.5. Общая структура компонентного уровня C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1116-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6. Примеры компонентных диаграмм C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.6. Примеры компонентных диаграмм C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11161-c4component-controller-service-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6.1. Полноценная диаграмма компонентов (C4Component) — классический вариант (Controller → Service → Repository)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11162" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6.2. Микросервисный вариант компонентной диаграммы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1117" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7. Отдельные визуализации типов компонентов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.7. Отдельные визуализации типов компонентов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11171" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.1. Компоненты контроллеров
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11172-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.2. Компоненты сервисов бизнес-логики
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11173" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.3. Компоненты репозиториев
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11174" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.4. Адаптеры внешних систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11175" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.5. Событийные компоненты
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1118-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.8. Методика разработки компонентных диаграмм C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1119-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9. Уровни C4 с примерами и отдельными диаграммами
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.9. Уровни C4 с примерами и отдельными диаграммами">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11191-level-1-context-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.1. Level 1 — Context Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11192-level-2-container-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.2. Level 2 — Container Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11193-level-3-component-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.3. Level 3 — Component Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11194-level-4-code-diagram-class-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.4. Level 4 — Code Diagram (Class Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11110-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10. Отдельная отрисовка каждого элемента C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.10. Отдельная отрисовка каждого элемента C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111101-web-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.1. Отдельная диаграмма: Web UI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111102-backend-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.2. Отдельная диаграмма: Backend API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.3. Отдельная диаграмма: База данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11110-c4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10. Дополнительные рекомендации по построению диаграмм C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Порядок выполнения работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Порядок выполнения работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 1. Анализ контекста и определение акторов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 2. Определение контейнеров системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 3. Выделение и описание архитектурных компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 4. Построение диаграммы компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 5. (Опционально) Диаграмма уровня кода
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 6. Формирование архитектурного документа
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 7
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 9
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная работа 10
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Требования для оформления
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Теория
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Теория">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.0. Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. Понятие архитектуры программного средства
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Цели построения архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Компоненты архитектуры программного средства
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3. Компоненты архитектуры программного средства">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.1. Функциональная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.2. Логическая архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#133" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.3. Физическая архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#134" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.4. Архитектура данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#135" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.5. Интеграционная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#136" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.6. Архитектура безопасности
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#137-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3.7. Архитектура эксплуатации (DevOps)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Архитектурные стили
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4. Архитектурные стили">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.1. Монолитная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.2. Клиент-серверная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143-layered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.3. Слоистая (Layered) архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#144" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.4. Микросервисная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#145-service-oriented-architecture-soa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.5. Service-Oriented Architecture (SOA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#146-event-driven-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4.6. Event-driven Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.5. Архитектурные паттерны
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6. Требования, влияющие на архитектуру
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6. Требования, влияющие на архитектуру">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.1. Функциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.6.2. Нефункциональные требования
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.7. Технологические решения и ограничения
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.8. Документирование архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.9. Процесс построения архитектуры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.9. Процесс построения архитектуры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 1. Анализ требований
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 2. Выбор архитектурного стиля
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 3. Проектирование логической структуры
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 4. Проектирование данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 5. Проектирование интеграций
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-proof-of-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 6. Разработка прототипов (Proof of Concept)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 7. Документирование решений
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 8. Архитектурный аудит
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.10. Ключевые качества хорошей архитектуры
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11. Создание диаграммы C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11. Создание диаграммы C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1111-c4-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.1. Общие сведения о C4 Model
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1112-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.2. Что такое компонент в C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.2. Что такое компонент в C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Основные элементы C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Основные элементы C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пользователи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Связи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Программная система
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Контейнер
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1113" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.3. Основной принцип выделения компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1114-c4-component-tier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4. Типы компонентов в архитектуре (C4 Component Tier)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.4. Типы компонентов в архитектуре (C4 Component Tier)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11141-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.1. Контроллеры (Controllers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11142-business-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.2. Сервисы бизнес-логики (Business Services)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11143-repositories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.3. Репозитории (Repositories)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11144-adapters-gateways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.4. Адаптеры внешних систем (Adapters / Gateways)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11145-providers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.5. Провайдеры инфраструктуры (Providers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11146-event-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.4.6. Компоненты событий (Event Components)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1115-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.5. Общая структура компонентного уровня C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1116-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6. Примеры компонентных диаграмм C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.6. Примеры компонентных диаграмм C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11161-c4component-controller-service-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6.1. Полноценная диаграмма компонентов (C4Component) — классический вариант (Controller → Service → Repository)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11162" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.6.2. Микросервисный вариант компонентной диаграммы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1117" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7. Отдельные визуализации типов компонентов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.7. Отдельные визуализации типов компонентов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11171" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.1. Компоненты контроллеров
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11172-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.2. Компоненты сервисов бизнес-логики
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11173" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.3. Компоненты репозиториев
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11174" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.4. Адаптеры внешних систем
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11175" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.7.5. Событийные компоненты
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1118-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.8. Методика разработки компонентных диаграмм C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1119-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9. Уровни C4 с примерами и отдельными диаграммами
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.9. Уровни C4 с примерами и отдельными диаграммами">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11191-level-1-context-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.1. Level 1 — Context Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11192-level-2-container-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.2. Level 2 — Container Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11193-level-3-component-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.3. Level 3 — Component Diagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11194-level-4-code-diagram-class-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.9.4. Level 4 — Code Diagram (Class Diagram)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11110-c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10. Отдельная отрисовка каждого элемента C4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.11.10. Отдельная отрисовка каждого элемента C4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111101-web-ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.1. Отдельная диаграмма: Web UI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111102-backend-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.2. Отдельная диаграмма: Backend API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#111103" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10.3. Отдельная диаграмма: База данных
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11110-c4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.11.10. Дополнительные рекомендации по построению диаграмм C4
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Задание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Задание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.0. Исходные данные (предметная область)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Описание задания
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Порядок выполнения работы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. Порядок выполнения работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 1. Анализ контекста и определение акторов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 2. Определение контейнеров системы
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 3. Выделение и описание архитектурных компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 4. Построение диаграммы компонентов
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 5. (Опционально) Диаграмма уровня кода
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Шаг 6. Формирование архитектурного документа
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Для выполнения требуется
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Запрет
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Контрольные вопросы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Чек-лист для самопроверки
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ссылка на скачивание шаблона отчета
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="no3-">Лабораторная работа №3 - Построение архитектуры программного средства</h1>
+<h2 id="1"><strong>1. Теория</strong></h2>
+<h3 id="10"><strong>1.0. Цель работы</strong></h3>
+<p>Целью лабораторной работы является освоение принципов архитектурного проектирования программного средства с использованием модели C4, включая формирование контекстного, контейнерного и компонентного представлений системы, определение границ ответственности, способов взаимодействия компонентов и обоснование выбранных архитектурных решений.</p>
+<h3 id="11"><strong>1.1.  Понятие архитектуры программного средства</strong></h3>
+<p><strong>Архитектура программного средства (ПС)</strong> — это совокупность структурных решений о компонентах системы, связях между ними, принципах организации, паттернах взаимодействия и ограничениях, определяющих её качество, расширяемость, эффективность и жизненный цикл.</p>
+<p>Архитектура определяет:</p>
+<ul>
+<li><strong>Что</strong> делает система (функциональные требования).</li>
+<li><strong>Как</strong> она должна работать (нефункциональные требования: производительность, надёжность, безопасность, масштабируемость).</li>
+<li><strong>Какие элементы и модули</strong> должны существовать в системе.</li>
+<li><strong>Каким образом</strong> эти элементы взаимодействуют.</li>
+</ul>
+<p>Архитектор фиксирует ключевые решения в виде:</p>
+<ul>
+<li>архитектурных стилей,</li>
+<li>диаграмм,</li>
+<li>ограничений,</li>
+<li>документированных компромиссов.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>C4Context
+title Контекстная диаграмма программного средства
+
+Person(user, "Пользователь", "Использует систему для выполнения целевых задач")
+
+System_Boundary(sys, "Программное средство") {
+    System(system, "Основная система", "Автоматизирует функции и обрабатывает данные пользователей")
+}
+
+System_Ext(ext1, "Внешняя система A", "Обменивается данными через API")
+System_Ext(ext2, "Внешняя система B", "Источник или потребитель информации")
+
+Rel(user, system, "Взаимодействует через UI/клиент")
+Rel(system, ext1, "Запросы / ответы по REST API")
+Rel(system, ext2, "Получение или отправка данных")
+</code></pre>
+<figcaption>
+<p>Диаграмма 1 - Контекстная архитектура ПС (C4 — Level 0)</p>
+</figcaption>
+</figure>
+<h3 id="12"><strong>1.2. Цели построения архитектуры</strong></h3>
+<p>Построение архитектуры направлено на:</p>
+<ol>
+<li><strong>Удовлетворение требований</strong> — создание структуры, способной обеспечить выполнение всех функциональных и нефункциональных требований.</li>
+<li><strong>Управление сложностью</strong> — разделение системы на управляемые компоненты.</li>
+<li><strong>Повышение устойчивости системы (robustness)</strong> — обеспечение отказоустойчивости и предсказуемости.</li>
+<li><strong>Масштабируемость</strong> — возможность развития ПС без полного переписывания.</li>
+<li><strong>Минимизация рисков</strong> — выявление архитектурных слабостей до начала разработки.</li>
+<li><strong>Оптимизацию стоимости владения (TCO)</strong> — снижение затрат на поддержку и развитие.</li>
+</ol>
+<figure>
+<pre class="mermaid"><code>mindmap
+  root((Цели архитектуры))
+    Управление_сложностью
+      Модульность
+      Ограничение связей
+    Надежность
+      Отказоустойчивость
+      Аварийное восстановление
+    Масштабируемость
+      Горизонтальная
+      Вертикальная
+    Безопасность
+      Контроль доступа
+      Шифрование
+    Экономичность
+      Оптимизация TCO</code></pre>
+<figcaption>
+<p>Диаграмма 2 - Цели архитектуры (mindmap)</p>
+</figcaption>
+</figure>
+<h3 id="13"><strong>1.3. Компоненты архитектуры программного средства</strong></h3>
+<h4 id="131"><strong>1.3.1. Функциональная архитектура</strong></h4>
+<p>Определяет:</p>
+<ul>
+<li>основные функции и сценарии использования;</li>
+<li>модули, отвечающие за реализацию пользовательских требований;</li>
+<li>границы модулей (bounded contexts);</li>
+<li>основные потоки данных.</li>
+</ul>
+<p>Используемые артефакты:</p>
+<ul>
+<li>диаграммы вариантов использования (Use Case);</li>
+<li>сценарии взаимодействия (Sequence);</li>
+<li>контекстная диаграмма.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>sequenceDiagram
+    participant U as Пользователь
+    participant UI as Интерфейс
+    participant BL as Бизнес-логика
+    participant DB as База данных
+
+    U-&gt;&gt;UI: Запрос функции
+    UI-&gt;&gt;BL: Передача параметров
+    BL-&gt;&gt;DB: Сохранение/получение данных
+    DB--&gt;&gt;BL: Данные
+    BL--&gt;&gt;UI: Ответ
+    UI--&gt;&gt;U: Результат выполнения</code></pre>
+<figcaption>
+<p>Диаграмма 3 - Диаграмма взаимодействия</p>
+</figcaption>
+</figure>
+<h4 id="132"><strong>1.3.2. Логическая архитектура</strong></h4>
+<p>Описывает разбиение системы на подсистемы и их ответственность.</p>
+<p>Типичные уровни:</p>
+<ul>
+<li>уровень представления (UI/UX);</li>
+<li>уровень бизнес-логики;</li>
+<li>уровень доступа к данным.</li>
+</ul>
+<p>Логическая архитектура не привязана к конкретным технологиям — это модель сущностей и правил.</p>
+<figure>
+<pre class="mermaid"><code>flowchart TB
+    A[Presentation Layer&lt;br&gt;UI / Web / Mobile]
+    B[Business Logic Layer&lt;br&gt;Services / Domain]
+    C[Data Access Layer&lt;br&gt;Repository / ORM]
+    D[Infrastructure&lt;br&gt;API Gateway / Integrations]
+
+    A --&gt; B
+    B --&gt; C
+    C --&gt; D</code></pre>
+<figcaption>
+<p>Диаграмма 4 - Логическая архитектура</p>
+</figcaption>
+</figure>
+<h4 id="133"><strong>1.3.3. Физическая архитектура</strong></h4>
+<p>Определяет размещение программных компонентов на:</p>
+<ul>
+<li>серверах,</li>
+<li>контейнерах,</li>
+<li>базах данных,</li>
+<li>сетевой инфраструктуре.</li>
+</ul>
+<p>Для визуализации используются:</p>
+<ul>
+<li>диаграммы развёртывания (Deployment),</li>
+<li>схемы инфраструктуры.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>graph LR
+    user([Пользователь])
+    lb[Load Balancer]
+    app1[(App Server 1)]
+    app2[(App Server 2)]
+    db[(Database)]
+    cache[(Redis Cache)]
+
+    user --&gt; lb
+    lb --&gt; app1
+    lb --&gt; app2
+    app1 --&gt; db
+    app2 --&gt; db
+    app1 --&gt; cache
+    app2 --&gt; cache</code></pre>
+<figcaption>
+<p>Диаграмма 5 - Физическая архитектура</p>
+</figcaption>
+</figure>
+<h4 id="134"><strong>1.3.4. Архитектура данных</strong></h4>
+<p>Включает:</p>
+<ul>
+<li>модели данных;</li>
+<li>схемы БД;</li>
+<li>форматы хранения и передачи данных (JSON, XML, Protobuf);</li>
+<li>правила валидации;</li>
+<li>стратегии миграций.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>erDiagram
+    USER ||--o{ ORDER : "оформляет"
+    ORDER ||--|{ ORDER_ITEM : "содержит"
+    PRODUCT ||--o{ ORDER_ITEM : "включается"
+
+</code></pre>
+<figcaption>
+<p>Диаграмма 6 - Архитектура данных</p>
+</figcaption>
+</figure>
+<hr>
+<h4 id="135"><strong>1.3.5. Интеграционная архитектура</strong></h4>
+<p>Описывает взаимодействие между компонентами и внешними системами.</p>
+<p>Может включать:</p>
+<ul>
+<li>REST / gRPC API контракты,</li>
+<li>очереди сообщений (RabbitMQ, Kafka),</li>
+<li>события и подписчики (event-driven),</li>
+<li>адаптеры внешних сервисов.</li>
+</ul>
+<h4 id="136"><strong>1.3.6. Архитектура безопасности</strong></h4>
+<p>Фиксирует:</p>
+<ul>
+<li>модели доступа (RBAC/ABAC),</li>
+<li>аутентификацию и авторизацию (OAuth2, JWT),</li>
+<li>протоколы шифрования (TLS),</li>
+<li>защиту данных и логирование.</li>
+</ul>
+<h4 id="137-devops"><strong>1.3.7. Архитектура эксплуатации (DevOps)</strong></h4>
+<p>Формирует требования и решения по:</p>
+<ul>
+<li>CI/CD pipeline,</li>
+<li>сборке и доставке артефактов,</li>
+<li>мониторингу и логированию,</li>
+<li>контейнеризации,</li>
+<li>оркестрации (Kubernetes, Docker Swarm).</li>
+</ul>
+<h3 id="14"><strong>1.4. Архитектурные стили</strong></h3>
+<h4 id="141"><strong>1.4.1. Монолитная архитектура</strong></h4>
+<p>Единый исполняемый модуль, содержащий все компоненты.</p>
+<p>Преимущества:</p>
+<ul>
+<li>простота разработки;</li>
+<li>единое деплоивание.</li>
+</ul>
+<p>Недостатки:</p>
+<ul>
+<li>сложность масштабирования;</li>
+<li>ограниченная гибкость.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>graph TB
+    M[Монолитное приложение]
+    M --&gt; UI
+    M --&gt; Services
+    M --&gt; Data</code></pre>
+<figcaption>
+<p>Диаграмма 7 - Монолитная архитектура</p>
+</figcaption>
+</figure>
+<h4 id="142-"><strong>1.4.2. Клиент-серверная архитектура</strong></h4>
+<p>Кунстный раздел между клиентской частью и серверной частью.</p>
+<figure>
+<pre class="mermaid"><code>graph LR
+    GW[API Gateway]
+    S1[Service 1]
+    S2[Service 2]
+    S3[Service 3]
+    DB1[(DB1)]
+    DB2[(DB2)]
+    MQ[(Message Broker)]
+
+    GW --&gt; S1
+    GW --&gt; S2
+    GW --&gt; S3
+    S1 --&gt; DB1
+    S2 --&gt; DB2
+    S3 --&gt; MQ</code></pre>
+<figcaption>
+<p>Диаграмма 8 - Клиент-серверная архитектура</p>
+</figcaption>
+</figure>
+<h4 id="143-layered"><strong>1.4.3. Слоистая (Layered) архитектура</strong></h4>
+<p>Одна из самых распространённых моделей:</p>
+<ul>
+<li>Presentation Layer</li>
+<li>Business Logic Layer</li>
+<li>Data Access Layer</li>
+<li>Infrastructure Layer</li>
+</ul>
+<p>Плюсы:</p>
+<ul>
+<li>чёткое разделение ответственности;</li>
+<li>управляемость модульностью.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>flowchart TB
+    %% Слоистая архитектура приложения
+
+    subgraph Клиент
+        UI[Слой представления&lt;br/&gt;UI / Web / Mobile]
+    end
+
+    subgraph Сервер
+        BL[Слой бизнес-логики&lt;br&gt;/Services / Domain]
+        DAL[Слой доступа к данным&lt;br/&gt;Repository / ORM]
+    end
+
+    DB[(База данных&lt;br/&gt;SQL / NoSQL)]
+
+    UI --&gt; BL
+    BL --&gt; DAL
+    DAL --&gt; DB
+</code></pre>
+<figcaption>
+<p>Диаграмма 9 - Слоистая (Layered) архитектура</p>
+</figcaption>
+</figure>
+<h4 id="144"><strong>1.4.4. Микросервисная архитектура</strong></h4>
+<p>Система состоит из независимых сервисов.</p>
+<p>Преимущества:</p>
+<ul>
+<li>гибкость;</li>
+<li>независимость команд;</li>
+<li>масштабирование отдельных частей.</li>
+</ul>
+<p>Недостатки:</p>
+<ul>
+<li>сложность инфраструктуры;</li>
+<li>распределённые транзакции.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>flowchart TB
+    subgraph Клиенты
+        Web[Web-клиент]
+        Mobile[Mobile-клиент]
+    end
+
+    APIGW[API Gateway&lt;br/&gt;единая точка входа]
+
+    subgraph Микросервисы
+        OrderSvc[Order Service&lt;br/&gt;управление заказами]
+        CatalogSvc[Catalog Service&lt;br/&gt;товары и цены]
+        PaymentSvc[Payment Service&lt;br/&gt;оплата]
+        NotificationSvc[Notification Service&lt;br/&gt;email/SMS/push]
+    end
+
+    subgraph Данные
+        OrdersDB[Orders DB]
+        CatalogDB[Catalog DB]
+        PaymentsDB[Payments DB]
+    end
+
+    MQ[Message Broker]
+
+    Web --&gt; APIGW
+    Mobile --&gt; APIGW
+
+    APIGW --&gt; OrderSvc
+    APIGW --&gt; CatalogSvc
+    APIGW --&gt; PaymentSvc
+
+    OrderSvc --&gt; OrdersDB
+    CatalogSvc --&gt; CatalogDB
+    PaymentSvc --&gt; PaymentsDB
+
+    OrderSvc -- "события заказов" --&gt; MQ
+    PaymentSvc -- "события платежей" --&gt; MQ
+    MQ --&gt; NotificationSvc
+</code></pre>
+<figcaption>
+<p>Диаграмма 10 - Микросервисная архитектура</p>
+</figcaption>
+</figure>
+<h4 id="145-service-oriented-architecture-soa"><strong>1.4.5. Service-Oriented Architecture (SOA)</strong></h4>
+<p>Сервисы связаны через шину (ESB), обеспечивающую централизованную интеграцию.</p>
+<figure>
+<pre class="mermaid"><code>flowchart LR
+    %% Клиенты
+    Client1[Клиент 1&lt;br/&gt;Web-приложение]
+    Client2[Клиент 2&lt;br/&gt;Мобильное приложение]
+    Client3[Клиент 3&lt;br/&gt;Внешняя система]
+
+    %% Шина сервисов
+    ESB[ESB / Service Bus&lt;br/&gt;Маршрутизация, оркестрация, трансформация]
+
+    %% Сервисы
+    subgraph Services[Сервисный слой]
+        S1[Сервис заказов&lt;br/&gt;Order Service]
+        S2[Сервис клиентов&lt;br/&gt;Customer Service]
+        S3[Сервис биллинга&lt;br/&gt;Billing Service]
+        S4[Сервис отчетности&lt;br/&gt;Reporting Service]
+    end
+
+    %% Хранилища
+    DB1[БД заказов]
+    DB2[БД клиентов]
+    DB3[БД биллинга]
+
+    %% Клиенты -&gt; ESB
+    Client1 --&gt; ESB
+    Client2 --&gt; ESB
+    Client3 --&gt; ESB
+
+    %% ESB -&gt; Сервисы
+    ESB --&gt; S1
+    ESB --&gt; S2
+    ESB --&gt; S3
+    ESB --&gt; S4
+
+    %% Сервисы -&gt; БД
+    S1 --&gt; DB1
+    S2 --&gt; DB2
+    S3 --&gt; DB3
+</code></pre>
+<figcaption>
+<p>Диаграмма 11 - Service-Oriented Architecture</p>
+</figcaption>
+</figure>
+<h4 id="146-event-driven-architecture"><strong>1.4.6. Event-driven Architecture</strong></h4>
+<p>Система реагирует на события; используется pub/sub-модель.</p>
+<figure>
+<pre class="mermaid"><code>sequenceDiagram
+    participant Producer as Сервис-источник
+    participant Broker as Message Broker
+    participant Consumer as Потребитель
+
+    Producer-&gt;&gt;Broker: Публикация события
+    Broker--&gt;&gt;Consumer: Доставка события
+    Consumer-&gt;&gt;Consumer: Обработка</code></pre>
+<figcaption>
+<p>Диаграмма 12 - Event-driven Architecture</p>
+</figcaption>
+</figure>
+<h3 id="15"><strong>1.5. Архитектурные паттерны</strong></h3>
+<ol>
+<li><strong>MVC / MVVM / MVP</strong> — разделение представления, логики и моделей.</li>
+<li><strong>Repository</strong> — абстракция работы с данными.</li>
+<li><strong>Factory / Singleton / Observer</strong> — классические шаблоны ООП.</li>
+<li><strong>Gateway / Adapter</strong> — стандартизация доступа к внешним системам.</li>
+<li><strong>CQRS</strong> — разделение операций чтения и записи.</li>
+<li><strong>Saga / Orchestration</strong> — координация процессов в распределённых системах.</li>
+</ol>
+<figure>
+<pre class="mermaid"><code>mindmap
+  root((Паттерны представления))
+    MVC
+      Model
+      View
+      Controller
+    MVVM
+      Model
+      View
+      ViewModel
+      Data Binding
+    MVP
+      Model
+      View
+      Presenter</code></pre>
+<figcaption>
+<p>Диаграмма 13 - Архитектурные паттерны</p>
+</figcaption>
+</figure>
+<h3 id="16"><strong>1.6. Требования, влияющие на архитектуру</strong></h3>
+<h4 id="161"><strong>1.6.1. Функциональные требования</strong></h4>
+<p>Определяют архитектурные границы модулей и потоков данных.</p>
+<h4 id="162"><strong>1.6.2. Нефункциональные требования</strong></h4>
+<p>Существенно влияют на выбор технологий.</p>
+<p>Типы NFR:</p>
+<ul>
+<li>производительность (latency, throughput);</li>
+<li>масштабируемость;</li>
+<li>отказоустойчивость;</li>
+<li>безопасность;</li>
+<li>удобство поддержки (Maintainability);</li>
+<li>переносимость;</li>
+<li>модульность.</li>
+</ul>
+<p>Архитектура должна обеспечивать выполнение NFR на уровне проектных решений.</p>
+<figure>
+<pre class="mermaid"><code>mindmap
+  root((Нефункциональные требования))
+    Производительность
+      Latency
+      Throughput
+    Надёжность
+      Репликация
+      Механизмы отката
+    Безопасность
+      Авторизация
+      Шифрование
+    Поддерживаемость
+      Модульность
+      Тестируемость</code></pre>
+<figcaption>
+<p>Диаграмма 14 - Нефункциональные требования</p>
+</figcaption>
+</figure>
+<h3 id="17"><strong>1.7. Технологические решения и ограничения</strong></h3>
+<p>При проектировании фиксируются:</p>
+<ol>
+<li>Язык программирования.</li>
+<li>Фреймворки.</li>
+<li>Библиотеки.</li>
+<li>Базы данных.</li>
+<li>Инструменты DevOps.</li>
+<li>Интеграционные протоколы.</li>
+<li>Платформа развёртывания (cloud/on-premise).</li>
+</ol>
+<p>Эти решения должны быть согласованы с требованиями, квалификацией команды и бюджетом.</p>
+<h2 id="18"><strong>1.8. Документирование архитектуры</strong></h2>
+<p>Архитектурная документация включает:</p>
+<ul>
+<li><strong>Диаграмму контекстов</strong> — уровень С0 (C4 model).</li>
+<li><strong>Диаграмму контейнеров</strong> — С1.</li>
+<li><strong>Диаграмму компонентов</strong> — С2.</li>
+<li><strong>Диаграмму классов / модулей</strong> — С3.</li>
+<li><strong>Диаграмму развёртывания</strong>.</li>
+<li><strong>ADR (Architectural Decision Records)</strong> — фиксация ключевых решений.</li>
+<li><strong>API-контракты</strong>.</li>
+<li><strong>Руководство по архитектуре</strong>.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>C4Container
+title Архитектура ПС — Диаграмма контейнеров
+
+Person(user, "Пользователь")
+
+System_Boundary(s1, "Программное средство") {
+    Container(ui, "UI", "Web/Mobile", "Интерфейс взаимодействия")
+    Container(api, "Backend API", "REST/JSON", "Бизнес-логика")
+    Container(db, "Database", "SQL/NoSQL", "Хранение данных")
+}
+
+Rel(user, ui, "Использует")
+Rel(ui, api, "HTTP(S)")
+Rel(api, db, "SQL/Queries")</code></pre>
+<figcaption>
+<p>Диаграмма 15 - Документирование архитектуры</p>
+</figcaption>
+</figure>
+<h2 id="19"><strong>1.9. Процесс построения архитектуры</strong></h2>
+<p>Процесс включает восемь этапов, от анализа требований до архитектурного аудита.</p>
+<figure>
+<pre class="mermaid"><code>flowchart LR
+    A[Анализ требований] --&gt; B[Выбор архитектурного стиля]
+    B --&gt; C[Проектирование логики]
+    C --&gt; D[Проектирование данных]
+    D --&gt; E[Проектирование интеграций]
+    E --&gt; F[Прототипирование]
+    F --&gt; G[Документирование]
+    G --&gt; H[Архитектурный аудит]</code></pre>
+<figcaption>
+<p>Диаграмма 16 - Процесс построения архитектуры</p>
+</figcaption>
+</figure>
+<h3 id="1_1">Шаг 1. Анализ требований</h3>
+<p>Сбор FR и NFR, анализ рисков и ограничений.</p>
+<h3 id="2">Шаг 2. Выбор архитектурного стиля</h3>
+<p>Монолит, слои, микросервисы, события и др.</p>
+<h3 id="3">Шаг 3. Проектирование логической структуры</h3>
+<p>Определение подсистем, модулей, интерфейсов.</p>
+<h3 id="4">Шаг 4. Проектирование данных</h3>
+<p>ER-диаграммы, схемы API, форматы.</p>
+<h3 id="5">Шаг 5. Проектирование интеграций</h3>
+<p>Адаптеры, API, события.</p>
+<h3 id="6-proof-of-concept">Шаг 6. Разработка прототипов (Proof of Concept)</h3>
+<p>Проверка выбранных технологий.</p>
+<h3 id="7">Шаг 7. Документирование решений</h3>
+<p>Диаграммы, ADR.</p>
+<h3 id="8">Шаг 8. Архитектурный аудит</h3>
+<p>Проверка выполнения NFR.</p>
+<h2 id="110"><strong>1.10. Ключевые качества хорошей архитектуры</strong></h2>
+<ul>
+<li><strong>Простота и ясность</strong>.</li>
+<li><strong>Минимальные зависимости</strong>.</li>
+<li><strong>Высокая связанность внутри модулей, низкая связность между ними</strong>.</li>
+<li><strong>Предсказуемость поведения</strong>.</li>
+<li><strong>Гибкость изменений</strong>.</li>
+<li><strong>Тестируемость</strong>.</li>
+<li><strong>Документированность</strong>.</li>
+</ul>
+<figure>
+<pre class="mermaid"><code>mindmap
+  root((Качества архитектуры))
+    Простота
+    Масштабируемость
+    Надёжность
+    Безопасность
+    Гибкость
+    Тестируемость</code></pre>
+<figcaption>
+<p>Диаграмма 17 - Ключевые качества хорошей архитектуры</p>
+</figcaption>
+</figure>
+<h2 id="111-c4">1.11. Создание диаграммы C4</h2>
+<h3 id="1111-c4-model">1.11.1. Общие сведения о C4 Model</h3>
+<p><strong>C4 Model</strong> — это современный стандарт визуального описания архитектуры программного обеспечения, предложенный Саймоном Брауном.
+Название C4 означает четыре уровня абстракции:</p>
+<ol>
+<li><strong>Context (Контекст)</strong> — кто взаимодействует с системой и в каком окружении она существует.</li>
+<li><strong>Container (Контейнеры)</strong> — крупные участки системы: приложения, API, БД, очереди сообщений.</li>
+<li><strong>Component (Компоненты)</strong> — внутренние части контейнеров: сервисы, модули, классы бизнес-логики.</li>
+<li><strong>Code (Код/классы)</strong> — отдельные классы и структуры (используется редко).</li>
+</ol>
+<p>C4 позволяет:</p>
+<ul>
+<li>описывать архитектуру сверху вниз;</li>
+<li>фиксировать ответственность каждого элемента;</li>
+<li>показывать структурные связи;</li>
+<li>документировать систему независимо от конкретных технологий.</li>
+</ul>
+<h3 id="1112-c4">1.11.2. Что такое компонент в C4</h3>
+<p><strong>Компонент</strong> в C4-модели — это логически обособленная часть контейнера, отвечающая за конкретный кусок функциональности.</p>
+<p>Это <strong>не класс</strong> и не исходный файл, а <strong>архитектурная единица</strong>, объединяющая:</p>
+<ul>
+<li>ответственность (responsibility);</li>
+<li>функциональность (capability);</li>
+<li>интерфейсы (API/методы);</li>
+<li>взаимодействие с другими компонентами;</li>
+<li>зависимость от репозиториев, адаптеров, внешних сервисов и т. д.</li>
+</ul>
+<p><strong>Примеры компонентов:</strong></p>
+<ul>
+<li><code>OrderController</code>, <code>AuthController</code>;</li>
+<li><code>PaymentService</code>, <code>NotificationService</code>;</li>
+<li><code>UserRepository</code>, <code>ProductRepository</code>;</li>
+<li><code>EncryptionProvider</code>;</li>
+<li><code>ExternalCRMAdapter</code>;</li>
+<li><code>EventPublisher</code>.</li>
+</ul>
+<h4 id="c4">Основные элементы C4</h4>
+<h5 id="_1">Пользователи</h5>
+<p>Персоны и внешние акторы.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/16.png" data-desc-position="bottom"><img alt="Пользователи" src="../assets/images/16.png"></a></p>
+<figcaption>
+<p>Рисунок 1 – Пользователи</p>
+</figcaption>
+</figure>
+<h5 id="_2">Связи</h5>
+<p>Штриховые линии с подписями.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/17.png" data-desc-position="bottom"><img alt="Связи" src="../assets/images/17.png"></a></p>
+<figcaption>
+<p>Рисунок 2 – Связи</p>
+</figcaption>
+</figure>
+<h5 id="_3">Программная система</h5>
+<p>Блок, отображающий разрабатываемое решение.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/18.png" data-desc-position="bottom"><img alt="Программная система" src="../assets/images/18.png"></a></p>
+<figcaption>
+<p>Рисунок 3 – Программная система</p>
+</figcaption>
+</figure>
+<h5 id="_4">Контейнер</h5>
+<p>Веб-приложение, API-сервер, БД, очередь сообщений, мобильное приложение.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/images/19.png" data-desc-position="bottom"><img alt="Контейнер" src="../assets/images/19.png"></a></p>
+<figcaption>
+<p>Рисунок 4 – Контейнер</p>
+</figcaption>
+</figure>
+<h3 id="1113">1.11.3. Основной принцип выделения компонентов</h3>
+<p>Компонент должен быть выделен, если:</p>
+<ol>
+<li>
+<p><strong>Он выполняет уникальную бизнес-роль.</strong>
+   Например: «Создать заказ», «Рассчитать тариф», «Проверить доступ».</p>
+</li>
+<li>
+<p><strong>Он реализует отдельный технический функционал.</strong>
+   Например: работа с БД, логирование, кэширование.</p>
+</li>
+<li>
+<p><strong>Он изменяется независимо от остального функционала.</strong>
+   Принцип «компонент — единица изменения».</p>
+</li>
+<li>
+<p><strong>Он может быть повторно использован.</strong>
+   Например: единое правило валидации.</p>
+</li>
+<li>
+<p><strong>У него чёткий API/интерфейс.</strong>
+   Контроллеры, сервисы, адаптеры.</p>
+</li>
+</ol>
+<h3 id="1114-c4-component-tier">1.11.4. Типы компонентов в архитектуре (C4 Component Tier)</h3>
+<p>Компоненты делятся по назначению.</p>
+<h4 id="11141-controllers">1.11.4.1. Контроллеры (Controllers)</h4>
+<p>Обрабатывают внешние запросы: HTTP, gRPC, WebSocket.
+Примеры:</p>
+<ul>
+<li><code>AuthController</code>;</li>
+<li><code>OrderController</code>.</li>
+</ul>
+<h4 id="11142-business-services">1.11.4.2. Сервисы бизнес-логики (Business Services)</h4>
+<p>Содержат доменные правила.
+Примеры:</p>
+<ul>
+<li><code>OrderService</code>;</li>
+<li><code>PricingService</code>;</li>
+<li><code>InventoryService</code>.</li>
+</ul>
+<h4 id="11143-repositories">1.11.4.3. Репозитории (Repositories)</h4>
+<p>Инкапсулируют работу с данными.
+Примеры:</p>
+<ul>
+<li><code>UserRepository</code>;</li>
+<li><code>ProductRepository</code>.</li>
+</ul>
+<h4 id="11144-adapters-gateways">1.11.4.4. Адаптеры внешних систем (Adapters / Gateways)</h4>
+<p>Обеспечивают связь с внешними API.
+Примеры:</p>
+<ul>
+<li><code>CRMAdapter</code>;</li>
+<li><code>PaymentGatewayClient</code>.</li>
+</ul>
+<h4 id="11145-providers">1.11.4.5. Провайдеры инфраструктуры (Providers)</h4>
+<p>Технические сервисы:</p>
+<ul>
+<li><code>Logger</code>;</li>
+<li><code>CacheProvider</code>;</li>
+<li><code>EncryptionProvider</code>.</li>
+</ul>
+<h4 id="11146-event-components">1.11.4.6. Компоненты событий (Event Components)</h4>
+<ul>
+<li><code>EventPublisher</code>;</li>
+<li><code>EventConsumer</code>;</li>
+<li><code>EventHandler</code>.</li>
+</ul>
+<h3 id="1115-c4">1.11.5. Общая структура компонентного уровня C4</h3>
+<p>Типовой набор компонентов:</p>
+<div class="highlight"><pre><span></span><code>Backend API Container
+ ├─ Controllers
+ │    ├─ OrderController
+ │    ├─ AuthController
+ │    └─ ReportController
+ │
+ ├─ Services
+ │    ├─ OrderService
+ │    ├─ PaymentService
+ │    └─ NotificationService
+ │
+ ├─ Repositories
+ │    ├─ UserRepository
+ │    ├─ ProductRepository
+ │    └─ OrderRepository
+ │
+ ├─ Adapters
+ │    ├─ CRMAdapter
+ │    └─ PaymentGateway
+ │
+ └─ Infrastructure
+      ├─ LoggingProvider
+      ├─ CacheProvider
+      └─ EventPublisher
+</code></pre></div>
+<h3 id="1116-c4">1.11.6. Примеры компонентных диаграмм C4</h3>
+<h4 id="11161-c4component-controller-service-repository">1.11.6.1. Полноценная диаграмма компонентов (C4Component) — классический вариант (Controller → Service → Repository)</h4>
+<figure>
+<pre class="mermaid"><code>C4Component
+title C4 — Компонентная диаграмма Backend API
+
+Container(api, "Backend API", "Python/FastAPI/.NET", "Обработка бизнес-логики")
+
+Component(controllerOrder, "OrderController", "Controller", "Принимает запросы заказов от клиента")
+Component(serviceOrder, "OrderService", "Service", "Бизнес-логика управления заказами")
+Component(repoOrder, "OrderRepository", "Repository", "Доступ к данным заказов")
+
+Component(controllerAuth, "AuthController", "Controller", "Аутентификация и авторизация")
+Component(serviceAuth, "AuthService", "Service", "Проверка токенов и прав доступа")
+Component(userRepo, "UserRepository", "Repository", "Хранение данных пользователей")
+
+Component(paymentAdapter, "PaymentGateway", "Adapter", "Интеграция с внешней платёжной системой")
+
+Rel(controllerOrder, serviceOrder, "Вызывает")
+Rel(serviceOrder, repoOrder, "Читает/записывает данные")
+Rel(serviceOrder, paymentAdapter, "Проводит оплату")
+
+Rel(controllerAuth, serviceAuth, "Вызывает бизнес-логику авторизации")
+Rel(serviceAuth, userRepo, "Проверяет пользователя в хранилище")
+</code></pre>
+<figcaption>
+<p>Диаграмма 19 - Полноценная диаграмма компонентов (C4Component)</p>
+</figcaption>
+</figure>
+<h4 id="11162">1.11.6.2. Микросервисный вариант компонентной диаграммы</h4>
+<figure>
+<pre class="mermaid"><code>C4Component
+title C4 — Компоненты микросервиса "Catalog"
+
+Container(catalog, "Catalog Service", "Node.js/.NET")
+
+Component(apiCtrl, "CatalogController", "Controller", "Обработка запросов каталога")
+Component(catalogSvc, "CatalogService", "Service", "Бизнес-логика каталога")
+Component(productRepo, "ProductRepository", "Repository", "Хранение товаров")
+Component(priceProvider, "PriceProvider", "Provider", "Расчет цен")
+Component(eventPub, "EventPublisher", "Event Component", "Публикация событий 'ProductUpdated'")
+
+Rel(apiCtrl, catalogSvc, "Запрос данных")
+Rel(catalogSvc, productRepo, "Чтение/запись данных")
+Rel(catalogSvc, priceProvider, "Получение ценовой информации")
+Rel(catalogSvc, eventPub, "Публикация события")</code></pre>
+<figcaption>
+<p>Диаграмма 20 - Микросервисный вариант компонентной диаграммы</p>
+</figcaption>
+</figure>
+<h3 id="1117">1.11.7. Отдельные визуализации типов компонентов</h3>
+<h4 id="11171">1.11.7.1. Компоненты контроллеров</h4>
+<figure>
+<pre class="mermaid"><code>flowchart TD
+    Client --&gt; Controller
+    Controller --&gt; Service</code></pre>
+<figcaption>
+<p>Диаграмма 21 - Компоненты контроллеров</p>
+</figcaption>
+</figure>
+<h4 id="11172-">1.11.7.2. Компоненты сервисов бизнес-логики</h4>
+<figure>
+<pre class="mermaid"><code>flowchart TD
+    Service --&gt; Repo1
+    Service --&gt; Repo2
+    Service --&gt; Adapter</code></pre>
+<figcaption>
+<p>Диаграмма 22 - Компоненты сервисов бизнес-логики</p>
+</figcaption>
+</figure>
+<h4 id="11173">1.11.7.3. Компоненты репозиториев</h4>
+<figure>
+<pre class="mermaid"><code>flowchart LR
+    Repo --&gt; DB[(Database)]</code></pre>
+<figcaption>
+<p>Диаграмма 23 - Компоненты репозиториев</p>
+</figcaption>
+</figure>
+<h4 id="11174">1.11.7.4. Адаптеры внешних систем</h4>
+<figure>
+<pre class="mermaid"><code>flowchart LR
+    Service --&gt; Adapter --&gt; ExternalAPI</code></pre>
+<figcaption>
+<p>Диаграмма 24 - Адаптеры внешних систем</p>
+</figcaption>
+</figure>
+<h4 id="11175">1.11.7.5. Событийные компоненты</h4>
+<figure>
+<pre class="mermaid"><code>sequenceDiagram
+    participant Service
+    participant EventPublisher
+    participant Queue
+
+    Service-&gt;&gt;EventPublisher: Создать событие
+    EventPublisher-&gt;&gt;Queue: Публикация</code></pre>
+<figcaption>
+<p>Диаграмма 25 - Событийные компоненты</p>
+</figcaption>
+</figure>
+<h3 id="1118-c4">1.11.8. Методика разработки компонентных диаграмм C4</h3>
+<ol>
+<li>Определи <strong>контейнер</strong> (API, сервис, приложение, БД).</li>
+<li>Выпиши <strong>основные функции</strong> контейнера.</li>
+<li>Раздели их на <strong>контроллеры</strong>, <strong>сервисы</strong>, <strong>репозитории</strong>, <strong>адаптеры</strong>.</li>
+<li>Определи связи: кто кого вызывает.</li>
+<li>
+<p>Проверь, что каждый компонент:</p>
+</li>
+<li>
+<p>имеет одну ответственность (SRP);</p>
+</li>
+<li>изолирован;</li>
+<li>использует чёткие интерфейсы.</li>
+<li>Нарисуй диаграмму в стиле <code>C4Component</code>.</li>
+</ol>
+<h3 id="1119-c4">1.11.9. Уровни C4 с примерами и отдельными диаграммами</h3>
+<h4 id="11191-level-1-context-diagram">1.11.9.1. Level 1 — Context Diagram</h4>
+<p>Диаграмма контекста показывает:</p>
+<ul>
+<li>систему как чёрный ящик;</li>
+<li>пользователей (акторов);</li>
+<li>внешние системы;</li>
+<li>основные взаимодействия.</li>
+</ul>
+<p><strong>Пример контекстной диаграммы (C4Context):</strong></p>
+<figure>
+<pre class="mermaid"><code>C4Context
+title C4 — Диаграмма контекста
+
+Person(user, "Пользователь", "Использует систему для выполнения операций")
+System_Boundary(sys, "Информационная система") {
+    System(app, "Основное приложение", "Предоставляет основной функционал")
+}
+
+System_Ext(ext1, "CRM", "Внешняя система управления клиентами")
+System_Ext(ext2, "Платежный сервис", "Обрабатывает транзакции")
+
+Rel(user, app, "Взаимодействует через интерфейс")
+Rel(app, ext1, "Обменивается клиентскими данными")
+Rel(app, ext2, "Запрашивает проведение платежей")</code></pre>
+<figcaption>
+<p>Диаграмма 26 - Level 1 — Context Diagram</p>
+</figcaption>
+</figure>
+<h4 id="11192-level-2-container-diagram">1.11.9.2. Level 2 — Container Diagram</h4>
+<p>Контейнер — это <strong>крупный исполняемый модуль</strong>: web-приложение, мобильное приложение, API, база данных, брокер сообщений.
+Контейнеры внутри системы взаимодействуют друг с другом и формируют архитектуру высокого уровня.</p>
+<p><strong>Пример C4Container:</strong></p>
+<figure>
+<pre class="mermaid"><code>C4Container
+title C4 — Диаграмма контейнеров
+
+Person(user, "Пользователь")
+
+System_Boundary(sys, "Информационная система") {
+
+    Container(ui, "Web UI", "React / Angular / Vue", "Предоставляет пользовательский интерфейс")
+    Container(api, "Backend API", "Node.js / .NET / FastAPI", "Реализует бизнес-логику")
+    Container(db, "Database", "PostgreSQL", "Хранит данные")
+    ContainerQueue(mq, "Message Queue", "RabbitMQ", "Асинхронные события и интеграции")
+}
+
+Rel(user, ui, "Использует")
+Rel(ui, api, "HTTP/HTTPS")
+Rel(api, db, "SQL")
+Rel(api, mq, "Публикует события")
+Rel(mq, api, "Асинхронные уведомления")</code></pre>
+<figcaption>
+<p>Диаграмма 27 - Level 2 — Container Diagram</p>
+</figcaption>
+</figure>
+<h4 id="11193-level-3-component-diagram">1.11.9.3. Level 3 — Component Diagram</h4>
+<p>Компоненты описывают, <strong>из чего состоит контейнер</strong>.
+Обычно строят для Backend API или другого сложного контейнера.</p>
+<p><strong>Пример компонентной диаграммы Backend API:</strong></p>
+<figure>
+<pre class="mermaid"><code>C4Component
+title C4 — Компоненты Backend API
+
+Container(api, "Backend API", "Python/FastAPI/.NET")
+
+Component(controller, "OrderController", "HTTP Controller", "Обрабатывает входящие запросы заказов")
+Component(service, "OrderService", "Бизнес-логика", "Управляет логикой создания и обновления заказов")
+Component(repo, "OrderRepository", "Repository", "Работа с данными заказов в БД")
+
+Rel(controller, service, "Вызывает методы")
+Rel(service, repo, "Читает/записывает данные")</code></pre>
+<figcaption>
+<p>Диаграмма 28 - Level 3 — Component Diagram</p>
+</figcaption>
+</figure>
+<h4 id="11194-level-4-code-diagram-class-diagram">1.11.9.4. Level 4 — Code Diagram (Class Diagram)</h4>
+<p>Используется только при глубокой детализации.
+Пример — класс доменной модели <code>Order</code>.</p>
+<figure>
+<pre class="mermaid"><code>classDiagram
+    class Order {
+        +int id
+        +datetime createdAt
+        +float total
+        +addItem()
+        +calculateTotal()
+    }
+
+    class OrderItem {
+        +int id
+        +string productName
+        +float price
+    }
+
+    Order --&gt; OrderItem</code></pre>
+<figcaption>
+<p>Диаграмма 29 - Level 4 — Code Diagram (Class Diagram)</p>
+</figcaption>
+</figure>
+<h3 id="11110-c4">1.11.10. Отдельная отрисовка каждого элемента C4</h3>
+<p>Ниже — примеры детализации каждого элемента модели C4.</p>
+<h4 id="111101-web-ui">1.11.10.1. Отдельная диаграмма: Web UI</h4>
+<figure>
+<pre class="mermaid"><code>flowchart TB
+    UI[Web UI&lt;br/&gt;React/Vue] --&gt; Router[Маршрутизация]
+    Router --&gt; Pages[Страницы/Views]
+    Pages --&gt; APIClient[API Client&lt;br/&gt;Axios/Fetch]</code></pre>
+<figcaption>
+<p>Диаграмма 30 - Отдельная отрисовка каждого элемента C4</p>
+</figcaption>
+</figure>
+<h4 id="111102-backend-api">1.11.10.2. Отдельная диаграмма: Backend API</h4>
+<figure>
+<pre class="mermaid"><code>flowchart TD
+    Controller[Controllers] --&gt; Service[Сервисы бизнес-логики]
+    Service --&gt; Repository[Репозитории]
+    Repository --&gt; DB[(Database)]</code></pre>
+<figcaption>
+<p>Диаграмма 31 - Отдельная диаграмма: Backend API</p>
+</figcaption>
+</figure>
+<h4 id="111103">1.11.10.3. Отдельная диаграмма: База данных</h4>
+<figure>
+<pre class="mermaid"><code>erDiagram
+    USER ||--o{ ORDER : "оформляет"
+    ORDER ||--|{ ORDER_ITEM : "содержит"
+    PRODUCT ||--o{ ORDER_ITEM : "включается"</code></pre>
+<figcaption>
+<p>Диаграмма 32 - Отдельная диаграмма: База данных</p>
+</figcaption>
+</figure>
+<h3 id="11110-c4_1">1.11.10. Дополнительные рекомендации по построению диаграмм C4</h3>
+<ol>
+<li>
+<p>Определи <strong>окружение системы</strong>:
+   кто пользователи, какие внешние системы.</p>
+</li>
+<li>
+<p>Определи <strong>крупные контейнеры</strong>:
+   база данных, API, фронтенд, сервисы, брокер сообщений.</p>
+</li>
+<li>
+<p>Для каждого контейнера выдели <strong>компоненты</strong>:
+   сервисы, репозитории, контроллеры, адаптеры.</p>
+</li>
+<li>
+<p>При необходимости проработай <strong>уровень кода (классы)</strong>.</p>
+</li>
+<li>
+<p>Используй <strong>единый стиль и нотацию</strong>:
+   названия, описания, формулировки связей.</p>
+</li>
+</ol>
+<hr>
+<h2 id="2_1"><strong>2. Задание</strong></h2>
+<h3 id="20"><strong>2.0. Исходные данные (предметная область)</strong></h3>
+<p>Для выполнения лабораторной работы используется информационная система по предметной области, закреплённой за студентом на семестр.
+Конкретный вариант предметной области и функциональных сценариев определяется индивидуальным заданием, опубликованным в ЛМС.
+Предметная область должна быть согласована с ранее выполненными лабораторными работами. </p>
+<h3 id="21"><strong>2.1. Описание задания</strong></h3>
+<ol>
+<li>Проанализировать предметную область разрабатываемой информационной системы.</li>
+<li>Определить пользователей (акторов), внешние системы и контекст функционирования.</li>
+<li>Сформировать архитектурное видение системы в виде набора диаграмм C4.</li>
+<li>
+<p>Построить диаграммы уровней:</p>
+</li>
+<li>
+<p><strong>C4 Level 1 — Context Diagram</strong></p>
+</li>
+<li><strong>C4 Level 2 — Container Diagram</strong></li>
+<li><strong>C4 Level 3 — Component Diagram</strong></li>
+<li>(опционально) <strong>C4 Level 4 — Code Diagram</strong></li>
+<li>Описать обнаруженные компоненты: контроллеры, сервисы, репозитории, адаптеры.</li>
+<li>Оформить архитектурный документ с построенными диаграммами.</li>
+</ol>
+<h3 id="22"><strong>2.2. Порядок выполнения работы</strong></h3>
+<h4 id="1_2"><strong>Шаг 1. Анализ контекста и определение акторов</strong></h4>
+<p>Определить:</p>
+<ul>
+<li>кто взаимодействует с системой (пользователи, администраторы, внешние системы);</li>
+<li>основные сценарии использования.</li>
+</ul>
+<p><strong>Результат:</strong> диаграмма <strong>C4 Context</strong>.</p>
+<h4 id="2_2"><strong>Шаг 2. Определение контейнеров системы</strong></h4>
+<p>Определить крупные блоки архитектуры:</p>
+<ul>
+<li>Web-интерфейс</li>
+<li>Backend API</li>
+<li>База данных</li>
+<li>Очередь сообщений</li>
+<li>Внешние интеграции</li>
+</ul>
+<p><strong>Результат:</strong> диаграмма <strong>C4 Container</strong>.</p>
+<h4 id="3_1"><strong>Шаг 3. Выделение и описание архитектурных компонентов</strong></h4>
+<p>На основе структуры контейнеров:</p>
+<ul>
+<li>выделить контроллеры;</li>
+<li>выделить сервисы бизнес-логики;</li>
+<li>определить репозитории;</li>
+<li>определить адаптеры внешних систем;</li>
+<li>описать события (если система событийная).</li>
+</ul>
+<p><strong>Результат:</strong> текстовое описание компонентов.</p>
+<h4 id="4_1"><strong>Шаг 4. Построение диаграммы компонентов</strong></h4>
+<p>Для выбранного контейнера (обычно Backend API):</p>
+<ul>
+<li>построить диаграмму <strong>C4 Component</strong>,</li>
+<li>показать связи между компонентами (Controller → Service → Repository).</li>
+</ul>
+<p>Если проект микросервисный — построить компонентные диаграммы для каждого сервиса.</p>
+<h4 id="5_1"><strong>Шаг 5. (Опционально) Диаграмма уровня кода</strong></h4>
+<p>Построить <strong>C4 Code Diagram</strong> для ключевой сущности (например, Order или User).</p>
+<h4 id="6"><strong>Шаг 6. Формирование архитектурного документа</strong></h4>
+<p>Финальный отчёт должен содержать:</p>
+<ol>
+<li>
+<p>Описание системы.</p>
+</li>
+<li>
+<p>Диаграммы:</p>
+</li>
+<li>
+<p>Context</p>
+</li>
+<li>Container</li>
+<li>Component</li>
+<li>
+<p>(опционально) Code</p>
+</li>
+<li>
+<p>Текстовые описания акторов, контейнеров и компонентов.</p>
+</li>
+<li>
+<p>Пример сценария взаимодействия (Sequence Diagram или текстовый сценарий).</p>
+</li>
+</ol>
+<h3 id="23"><strong>2.3. Для выполнения требуется</strong></h3>
+<ol>
+<li><strong>Шаблон отчёта</strong>, указанный в описании лабораторной работы.</li>
+<li><strong>Вариант задания</strong>, закреплённый за студентом на семестр и опубликованный в ЛМС.</li>
+<li><strong>Требования к оформлению</strong> — согласно методическим указаниям в ЛМС или соответствующему разделу документации.</li>
+<li>Для построения диаграмм использовать <strong>draw.io (diagrams.net)</strong>.</li>
+</ol>
+<p>Все диаграммы должны быть сохранены и вставлены в отчёт в виде изображений с подписями.</p>
+<h3 id="24"><strong>2.4. Запрет</strong></h3>
+<p>❗ <strong>Запрещается использование систем искусственного интеллекта для выполнения лабораторной работы.</strong></p>
+<p>Работы, выполненные с использованием ИИ, полностью или частично скопированные, а также не сданные, оцениваются в <strong>0 баллов</strong> без возможности доработки.</p>
+<hr>
+<h2 id="3_2"><strong>3. Контрольные вопросы</strong></h2>
+<ol>
+<li>Что такое модель C4 и для чего она используется?</li>
+<li>Чем отличается контейнер от компонента?</li>
+<li>Какие типы компонентов выделяют в архитектуре?</li>
+<li>Что показывает диаграмма контекста?</li>
+<li>Как описывается бизнес-логика на уровне компонентной диаграммы?</li>
+<li>Какие преимущества даёт документирование архитектуры C4?</li>
+</ol>
+<h2 id="4-"><strong>4. Чек-лист для самопроверки</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Баллы</th>
+<th>Критерий</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>5</strong></td>
+<td>Построены все уровни C4 (1–3), компоненты выделены корректно, связи описаны, модели согласованы, отчёт оформлен профессионально.</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>Построены ≥2 уровня диаграмм, компоненты описаны частично, есть мелкие ошибки.</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Построен один уровень диаграммы, компоненты выделены неполно, много ошибок.</td>
+</tr>
+<tr>
+<td><strong>1–2</strong></td>
+<td>Работа выполнена поверхностно, диаграммы отсутствуют или некорректны.</td>
+</tr>
+<tr>
+<td><strong>0</strong></td>
+<td><strong>Работа скопирована, выполнена с помощью ИИ, либо не сдана.</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="5_2"><strong>5. Ссылка на скачивание шаблона отчета</strong></h2>
+<p>👉 <a href="../assets/tempales/LR3.docx">Скачать шаблон отчёта</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.image.zoom", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../js/mermaid-init.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
